@@ -1,0 +1,26 @@
+{
+  "id": "custom-frankenstein-test-bench-windows-7-v125",
+  "metadata": {
+    "make": "Custom",
+    "model": "Frankenstein Test Bench",
+    "year": 2015,
+    "os_target": "Windows 7",
+    "form_factor": "Desktop"
+  },
+  "hardware": {
+    "cpu_cores": 8,
+    "cpu_name": "AMD FX-8350",
+    "ram_mb": 32768,
+    "storage_gb": 120,
+    "gpu_name": "AMD Radeon R9 290X",
+    "gpu_vram_mb": 4096,
+    "screen_resolution": "800x600"
+  },
+  "environment": {
+    "accessibility_mode": "High Contrast",
+    "boot_mode": "Normal"
+  },
+  "software": {
+    "primary_browser": "Chrome"
+  }
+}

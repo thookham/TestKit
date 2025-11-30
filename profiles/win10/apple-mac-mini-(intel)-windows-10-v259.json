@@ -1,0 +1,26 @@
+{
+  "id": "apple-mac-mini-(intel)-windows-10-v259",
+  "metadata": {
+    "make": "Apple",
+    "model": "Mac Mini (Intel)",
+    "year": 2018,
+    "os_target": "Windows 10",
+    "form_factor": "Mini PC"
+  },
+  "hardware": {
+    "cpu_cores": 6,
+    "cpu_name": "Intel Core i5-8500B",
+    "ram_mb": 8192,
+    "storage_gb": 256,
+    "gpu_name": "Intel UHD Graphics 630",
+    "gpu_vram_mb": 1536,
+    "screen_resolution": "2560x1440"
+  },
+  "environment": {
+    "accessibility_mode": "Standard",
+    "boot_mode": "Normal"
+  },
+  "software": {
+    "primary_browser": "Chrome"
+  }
+}

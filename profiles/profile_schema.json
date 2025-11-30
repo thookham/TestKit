@@ -1,0 +1,137 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "TestKit Hardware Profile",
+    "description": "A hardware profile representing a specific computer configuration for testing.",
+    "type": "object",
+    "properties": {
+        "id": {
+            "type": "string",
+            "description": "Unique identifier for the profile (kebab-case)",
+            "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+        },
+        "metadata": {
+            "type": "object",
+            "properties": {
+                "make": {
+                    "type": "string"
+                },
+                "model": {
+                    "type": "string"
+                },
+                "year": {
+                    "type": "integer",
+                    "minimum": 1980,
+                    "maximum": 2030
+                },
+                "os_target": {
+                    "type": "string",
+                    "enum": [
+                        "Windows XP",
+                        "Windows 7",
+                        "Windows 8",
+                        "Windows 8.1",
+                        "Windows 10",
+                        "Windows 11"
+                    ]
+                },
+                "form_factor": {
+                    "type": "string",
+                    "enum": [
+                        "Laptop",
+                        "Desktop",
+                        "2-in-1",
+                        "Tablet",
+                        "Netbook"
+                    ]
+                }
+            },
+            "required": [
+                "make",
+                "model",
+                "year",
+                "os_target"
+            ]
+        },
+        "hardware": {
+            "type": "object",
+            "properties": {
+                "cpu_cores": {
+                    "type": "integer",
+                    "minimum": 1
+                },
+                "cpu_name": {
+                    "type": "string"
+                },
+                "ram_mb": {
+                    "type": "integer",
+                    "minimum": 128
+                },
+                "storage_gb": {
+                    "type": "integer",
+                    "minimum": 1
+                },
+                "gpu_name": {
+                    "type": "string"
+                },
+                "gpu_vram_mb": {
+                    "type": "integer",
+                    "minimum": 0
+                },
+                "screen_resolution": {
+                    "type": "string",
+                    "pattern": "^\\d+x\\d+$"
+                }
+            },
+            "required": [
+                "cpu_cores",
+                "ram_mb",
+                "storage_gb",
+                "screen_resolution"
+            ]
+        },
+        "environment": {
+            "type": "object",
+            "properties": {
+                "accessibility_mode": {
+                    "type": "string",
+                    "enum": [
+                        "Standard",
+                        "High Contrast",
+                        "Magnifier",
+                        "Screen Reader"
+                    ],
+                    "default": "Standard"
+                },
+                "boot_mode": {
+                    "type": "string",
+                    "enum": [
+                        "Normal",
+                        "Safe Mode",
+                        "Safe Mode with Networking"
+                    ],
+                    "default": "Normal"
+                }
+            }
+        },
+        "software": {
+            "type": "object",
+            "properties": {
+                "primary_browser": {
+                    "type": "string",
+                    "enum": [
+                        "Internet Explorer",
+                        "Edge",
+                        "Chrome",
+                        "Firefox",
+                        "Opera"
+                    ]
+                }
+            }
+        }
+    },
+    "required": [
+        "id",
+        "metadata",
+        "hardware"
+    ]
+}

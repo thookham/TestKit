@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
+.vscode/
+.idea/
+exports/*.Dockerfile
+exports/*.Vagrantfile
+exports/*.tf
+exports/*.wsb
+.env

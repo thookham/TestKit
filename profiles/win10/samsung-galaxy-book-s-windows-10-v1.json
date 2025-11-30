@@ -1,0 +1,26 @@
+{
+  "id": "samsung-galaxy-book-s-windows-10-v1",
+  "metadata": {
+    "make": "Samsung",
+    "model": "Galaxy Book S",
+    "year": 2020,
+    "os_target": "Windows 10",
+    "form_factor": "Laptop"
+  },
+  "hardware": {
+    "cpu_cores": 5,
+    "cpu_name": "Intel Core i5-L16G7 (Lakefield Hybrid)",
+    "ram_mb": 8192,
+    "storage_gb": 256,
+    "gpu_name": "Intel UHD Graphics",
+    "gpu_vram_mb": 0,
+    "screen_resolution": "1920x1080"
+  },
+  "environment": {
+    "accessibility_mode": "Standard",
+    "boot_mode": "Normal"
+  },
+  "software": {
+    "primary_browser": "Chrome"
+  }
+}

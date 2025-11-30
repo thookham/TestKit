@@ -1,0 +1,26 @@
+{
+  "id": "intel-nuc-11-performance-windows-11-v860",
+  "metadata": {
+    "make": "Intel",
+    "model": "NUC 11 Performance",
+    "year": 2021,
+    "os_target": "Windows 11",
+    "form_factor": "Mini PC"
+  },
+  "hardware": {
+    "cpu_cores": 4,
+    "cpu_name": "Intel Core i5-1135G7",
+    "ram_mb": 16384,
+    "storage_gb": 2048,
+    "gpu_name": "Intel Iris Xe Graphics",
+    "gpu_vram_mb": 1024,
+    "screen_resolution": "3840x2160"
+  },
+  "environment": {
+    "accessibility_mode": "Standard",
+    "boot_mode": "Normal"
+  },
+  "software": {
+    "primary_browser": "Firefox"
+  }
+}

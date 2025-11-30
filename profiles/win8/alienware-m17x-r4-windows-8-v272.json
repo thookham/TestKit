@@ -1,0 +1,26 @@
+{
+  "id": "alienware-m17x-r4-windows-8-v272",
+  "metadata": {
+    "make": "Alienware",
+    "model": "M17x R4",
+    "year": 2012,
+    "os_target": "Windows 8",
+    "form_factor": "Laptop"
+  },
+  "hardware": {
+    "cpu_cores": 4,
+    "cpu_name": "Intel Core i7-3610QM",
+    "ram_mb": 16384,
+    "storage_gb": 500,
+    "gpu_name": "NVIDIA GeForce GTX 675M",
+    "gpu_vram_mb": 2048,
+    "screen_resolution": "1920x1080"
+  },
+  "environment": {
+    "accessibility_mode": "High Contrast",
+    "boot_mode": "Normal"
+  },
+  "software": {
+    "primary_browser": "Internet Explorer"
+  }
+}

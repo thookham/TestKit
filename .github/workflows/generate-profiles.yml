@@ -1,0 +1,17 @@
+name: Generate Profiles
+on:
+  push:
+    paths:
+      - 'scripts/db/laptops.json'
+  workflow_dispatch:
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v4
+      - run: python scripts/generate_profiles.py
+      - uses: actions/upload-artifact@v3
+        with:
+          name: generated-profiles
+          path: profiles/

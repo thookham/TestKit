@@ -1,0 +1,26 @@
+{
+  "id": "xiaomi-mi-notebook-pro-windows-10-v10",
+  "metadata": {
+    "make": "Xiaomi",
+    "model": "Mi Notebook Pro",
+    "year": 2019,
+    "os_target": "Windows 10",
+    "form_factor": "Laptop"
+  },
+  "hardware": {
+    "cpu_cores": 4,
+    "cpu_name": "Intel Core i5-8250U",
+    "ram_mb": 8192,
+    "storage_gb": 256,
+    "gpu_name": "NVIDIA GeForce MX250",
+    "gpu_vram_mb": 2048,
+    "screen_resolution": "1920x1080"
+  },
+  "environment": {
+    "accessibility_mode": "High Contrast",
+    "boot_mode": "Normal"
+  },
+  "software": {
+    "primary_browser": "Chrome"
+  }
+}

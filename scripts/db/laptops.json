@@ -1,0 +1,1266 @@
+[
+    {
+        "make": "Lenovo",
+        "model": "ThinkPad T420",
+        "year": 2011,
+        "form_factor": "Laptop",
+        "supported_os": [
+            "Windows 7",
+            "Windows 10"
+        ],
+        "cpu_options": [
+            {
+                "name": "Intel Core i5-2520M",
+                "cores": 2
+            }
+        ],
+        "ram_options": [
+            4096,
+            8192
+        ],
+        "storage_options": [
+            320,
+            500
+        ],
+        "gpu_options": [
+            {
+                "name": "Intel HD Graphics 3000",
+                "vram": 512
+            }
+        ],
+        "resolution_options": [
+            "1366x768",
+            "1600x900"
+        ]
+    },
+    {
+        "make": "Lenovo",
+        "model": "ThinkPad T480",
+        "year": 2018,
+        "form_factor": "Laptop",
+        "supported_os": [
+            "Windows 10",
+            "Windows 11"
+        ],
+        "cpu_options": [
+            {
+                "name": "Intel Core i5-8250U",
+                "cores": 4
+            },
+            {
+                "name": "Intel Core i7-8550U",
+                "cores": 4
+            }
+        ],
+        "ram_options": [
+            8192,
+            16384,
+            32768
+        ],
+        "storage_options": [
+            256,
+            512,
+            1024
+        ],
+        "gpu_options": [
+            {
+                "name": "Intel UHD Graphics 620",
+                "vram": 1024
+            }
+        ],
+        "resolution_options": [
+            "1920x1080",
+            "2560x1440"
+        ]
+    },
+    {
+        "make": "Dell",
+        "model": "XPS 13 9360",
+        "year": 2016,
+        "form_factor": "Laptop",
+        "supported_os": [
+            "Windows 10"
+        ],
+        "cpu_options": [
+            {
+                "name": "Intel Core i5-7200U",
+                "cores": 2
+            }
+        ],
+        "ram_options": [
+            8192,
+            16384
+        ],
+        "storage_options": [
+            256,
+            512
+        ],
+        "gpu_options": [
+            {
+                "name": "Intel HD Graphics 620",
+                "vram": 1024
+            }
+        ],
+        "resolution_options": [
+            "1920x1080",
+            "3200x1800"
+        ]
+    },
+    {
+        "make": "HP",
+        "model": "EliteBook 840 G3",
+        "year": 2016,
+        "form_factor": "Laptop",
+        "supported_os": [
+            "Windows 7",
+            "Windows 10"
+        ],
+        "cpu_options": [
+            {
+                "name": "Intel Core i5-6300U",
+                "cores": 2
+            }
+        ],
+        "ram_options": [
+            8192,
+            16384
+        ],
+        "storage_options": [
+            256,
+            500
+        ],
+        "gpu_options": [
+            {
+                "name": "Intel HD Graphics 520",
+                "vram": 1024
+            }
+        ],
+        "resolution_options": [
+            "1920x1080"
+        ]
+    },
+    {
+        "make": "Acer",
+        "model": "Aspire 5750G",
+        "year": 2011,
+        "form_factor": "Laptop",
+        "supported_os": [
+            "Windows 7"
+        ],
+        "cpu_options": [
+            {
+                "name": "Intel Core i5-2410M",
+                "cores": 2
+            }
+        ],
+        "ram_options": [
+            4096,
+            8192
+        ],
+        "storage_options": [
+            500,
+            640
+        ],
+        "gpu_options": [
+            {
+                "name": "NVIDIA GeForce GT 540M",
+                "vram": 1024
+            }
+        ],
+        "resolution_options": [
+            "1366x768"
+        ]
+    },
+    {
+        "make": "Asus",
+        "model": "Eee PC 1000HE",
+        "year": 2009,
+        "form_factor": "Netbook",
+        "supported_os": [
+            "Windows XP",
+            "Windows 7"
+        ],
+        "cpu_options": [
+            {
+                "name": "Intel Atom N280",
+                "cores": 1
+            }
+        ],
+        "ram_options": [
+            1024,
+            2048
+        ],
+        "storage_options": [
+            160
+        ],
+        "gpu_options": [
+            {
+                "name": "Intel GMA 950",
+                "vram": 64
+            }
+        ],
+        "resolution_options": [
+            "1024x600"
+        ]
+    },
+    {
+        "make": "Microsoft",
+        "model": "Surface Pro 3",
+        "year": 2014,
+        "form_factor": "Tablet",
+        "supported_os": [
+            "Windows 8.1",
+            "Windows 10"
+        ],
+        "cpu_options": [
+            {
+                "name": "Intel Core i5-4300U",
+                "cores": 2
+            },
+            {
+                "name": "Intel Core i7-4650U",
+                "cores": 2
+            }
+        ],
+        "ram_options": [
+            4096,
+            8192
+        ],
+        "storage_options": [
+            128,
+            256,
+            512
+        ],
+        "gpu_options": [
+            {
+                "name": "Intel HD Graphics 4400",
+                "vram": 1024
+            }
+        ],
+        "resolution_options": [
+            "2160x1440"
+        ]
+    },
+    {
+        "make": "Microsoft",
+        "model": "Surface Pro X",
+        "year": 2019,
+        "form_factor": "Tablet",
+        "supported_os": [
+            "Windows 10",
+            "Windows 11"
+        ],
+        "cpu_options": [
+            {
+                "name": "Microsoft SQ1 (Qualcomm ARM)",
+                "cores": 8
+            },
+            {
+                "name": "Microsoft SQ2 (Qualcomm ARM)",
+                "cores": 8
+            }
+        ],
+        "ram_options": [
+            8192,
+            16384
+        ],
+        "storage_options": [
+            128,
+            256,
+            512
+        ],
+        "gpu_options": [
+            {
+                "name": "Adreno 685",
+                "vram": 0
+            }
+        ],
+        "resolution_options": [
+            "2880x1920"
+        ]
+    },
+    {
+        "make": "Alienware",
+        "model": "M17x R4",
+        "year": 2012,
+        "form_factor": "Laptop",
+        "supported_os": [
+            "Windows 7",
+            "Windows 8"
+        ],
+        "cpu_options": [
+            {
+                "name": "Intel Core i7-3610QM",
+                "cores": 4
+            }
+        ],
+        "ram_options": [
+            8192,
+            16384,
+            32768
+        ],
+        "storage_options": [
+            500,
+            1024
+        ],
+        "gpu_options": [
+            {
+                "name": "NVIDIA GeForce GTX 675M",
+                "vram": 2048
+            },
+            {
+                "name": "AMD Radeon HD 7970M",
+                "vram": 2048
+            }
+        ],
+        "resolution_options": [
+            "1600x900",
+            "1920x1080"
+        ]
+    },
+    {
+        "make": "Razer",
+        "model": "Blade 15 Advanced",
+        "year": 2020,
+        "form_factor": "Laptop",
+        "supported_os": [
+            "Windows 10",
+            "Windows 11"
+        ],
+        "cpu_options": [
+            {
+                "name": "Intel Core i7-10875H",
+                "cores": 8
+            }
+        ],
+        "ram_options": [
+            16384,
+            32768
+        ],
+        "storage_options": [
+            512,
+            1024
+        ],
+        "gpu_options": [
+            {
+                "name": "NVIDIA GeForce RTX 2080 Super Max-Q",
+                "vram": 8192
+            }
+        ],
+        "resolution_options": [
+            "1920x1080",
+            "3840x2160"
+        ]
+    },
+    {
+        "make": "Dell",
+        "model": "Precision M4800",
+        "year": 2013,
+        "form_factor": "Laptop",
+        "supported_os": [
+            "Windows 7",
+            "Windows 8.1",
+            "Windows 10"
+        ],
+        "cpu_options": [
+            {
+                "name": "Intel Core i7-4800MQ",
+                "cores": 4
+            }
+        ],
+        "ram_options": [
+            16384,
+            32768
+        ],
+        "storage_options": [
+            500,
+            1024
+        ],
+        "gpu_options": [
+            {
+                "name": "NVIDIA Quadro K2100M",
+                "vram": 2048
+            }
+        ],
+        "resolution_options": [
+            "1920x1080",
+            "3200x1800"
+        ]
+    },
+    {
+        "make": "HP",
+        "model": "Stream 11",
+        "year": 2014,
+        "form_factor": "Laptop",
+        "supported_os": [
+            "Windows 8.1",
+            "Windows 10"
+        ],
+        "cpu_options": [
+            {
+                "name": "Intel Celeron N2840",
+                "cores": 2
+            }
+        ],
+        "ram_options": [
+            2048,
+            4096
+        ],
+        "storage_options": [
+            32
+        ],
+        "gpu_options": [
+            {
+                "name": "Intel HD Graphics",
+                "vram": 0
+            }
+        ],
+        "resolution_options": [
+            "1366x768"
+        ]
+    },
+    {
+        "make": "HP",
+        "model": "Envy x360 13",
+        "year": 2020,
+        "form_factor": "2-in-1",
+        "supported_os": [
+            "Windows 10",
+            "Windows 11"
+        ],
+        "cpu_options": [
+            {
+                "name": "AMD Ryzen 5 4500U",
+                "cores": 6
+            },
+            {
+                "name": "AMD Ryzen 7 4700U",
+                "cores": 8
+            }
+        ],
+        "ram_options": [
+            8192,
+            16384
+        ],
+        "storage_options": [
+            256,
+            512
+        ],
+        "gpu_options": [
+            {
+                "name": "AMD Radeon Graphics",
+                "vram": 512
+            }
+        ],
+        "resolution_options": [
+            "1920x1080"
+        ]
+    },
+    {
+        "make": "Samsung",
+        "model": "Galaxy Book S",
+        "year": 2020,
+        "form_factor": "Laptop",
+        "supported_os": [
+            "Windows 10",
+            "Windows 11"
+        ],
+        "cpu_options": [
+            {
+                "name": "Intel Core i5-L16G7 (Lakefield Hybrid)",
+                "cores": 5
+            }
+        ],
+        "ram_options": [
+            8192
+        ],
+        "storage_options": [
+            256,
+            512
+        ],
+        "gpu_options": [
+            {
+                "name": "Intel UHD Graphics",
+                "vram": 0
+            }
+        ],
+        "resolution_options": [
+            "1920x1080"
+        ]
+    },
+    {
+        "make": "Custom",
+        "model": "Frankenstein Test Bench",
+        "year": 2015,
+        "form_factor": "Desktop",
+        "supported_os": [
+            "Windows 7",
+            "Windows 10"
+        ],
+        "cpu_options": [
+            {
+                "name": "AMD FX-8350",
+                "cores": 8
+            }
+        ],
+        "ram_options": [
+            4096,
+            32768
+        ],
+        "storage_options": [
+            120,
+            2000
+        ],
+        "gpu_options": [
+            {
+                "name": "NVIDIA GeForce GT 710",
+                "vram": 1024
+            },
+            {
+                "name": "AMD Radeon R9 290X",
+                "vram": 4096
+            }
+        ],
+        "resolution_options": [
+            "800x600",
+            "1920x1080",
+            "2560x1440"
+        ]
+    },
+    {
+        "make": "Valve",
+        "model": "Steam Deck LCD",
+        "year": 2022,
+        "form_factor": "Handheld",
+        "supported_os": [
+            "Windows 10",
+            "Windows 11"
+        ],
+        "cpu_options": [
+            {
+                "name": "AMD Zen 2 Custom APU (Van Gogh)",
+                "cores": 4
+            }
+        ],
+        "ram_options": [
+            16384
+        ],
+        "storage_options": [
+            64,
+            256,
+            512
+        ],
+        "gpu_options": [
+            {
+                "name": "AMD RDNA 2 Custom GPU",
+                "vram": 1024
+            }
+        ],
+        "resolution_options": [
+            "1280x800"
+        ]
+    },
+    {
+        "make": "Valve",
+        "model": "Steam Deck OLED",
+        "year": 2023,
+        "form_factor": "Handheld",
+        "supported_os": [
+            "Windows 10",
+            "Windows 11"
+        ],
+        "cpu_options": [
+            {
+                "name": "AMD Zen 2 Custom APU (Sephiroth)",
+                "cores": 4
+            }
+        ],
+        "ram_options": [
+            16384
+        ],
+        "storage_options": [
+            512,
+            1024
+        ],
+        "gpu_options": [
+            {
+                "name": "AMD RDNA 2 Custom GPU",
+                "vram": 1024
+            }
+        ],
+        "resolution_options": [
+            "1280x800"
+        ]
+    },
+    {
+        "make": "Asus",
+        "model": "ROG Ally",
+        "year": 2023,
+        "form_factor": "Handheld",
+        "supported_os": [
+            "Windows 11"
+        ],
+        "cpu_options": [
+            {
+                "name": "AMD Ryzen Z1 Extreme",
+                "cores": 8
+            },
+            {
+                "name": "AMD Ryzen Z1",
+                "cores": 6
+            }
+        ],
+        "ram_options": [
+            16384
+        ],
+        "storage_options": [
+            512
+        ],
+        "gpu_options": [
+            {
+                "name": "AMD Radeon Graphics (RDNA 3)",
+                "vram": 4096
+            }
+        ],
+        "resolution_options": [
+            "1920x1080"
+        ]
+    },
+    {
+        "make": "Lenovo",
+        "model": "Legion Go",
+        "year": 2023,
+        "form_factor": "Handheld",
+        "supported_os": [
+            "Windows 11"
+        ],
+        "cpu_options": [
+            {
+                "name": "AMD Ryzen Z1 Extreme",
+                "cores": 8
+            }
+        ],
+        "ram_options": [
+            16384
+        ],
+        "storage_options": [
+            512,
+            1024
+        ],
+        "gpu_options": [
+            {
+                "name": "AMD Radeon Graphics (RDNA 3)",
+                "vram": 4096
+            }
+        ],
+        "resolution_options": [
+            "2560x1600"
+        ]
+    },
+    {
+        "make": "Intel",
+        "model": "NUC 11 Performance",
+        "year": 2021,
+        "form_factor": "Mini PC",
+        "supported_os": [
+            "Windows 10",
+            "Windows 11"
+        ],
+        "cpu_options": [
+            {
+                "name": "Intel Core i3-1115G4",
+                "cores": 2
+            },
+            {
+                "name": "Intel Core i5-1135G7",
+                "cores": 4
+            },
+            {
+                "name": "Intel Core i7-1165G7",
+                "cores": 4
+            }
+        ],
+        "ram_options": [
+            8192,
+            16384,
+            32768,
+            65536
+        ],
+        "storage_options": [
+            256,
+            512,
+            1024,
+            2048
+        ],
+        "gpu_options": [
+            {
+                "name": "Intel Iris Xe Graphics",
+                "vram": 1024
+            }
+        ],
+        "resolution_options": [
+            "1920x1080",
+            "3840x2160"
+        ]
+    },
+    {
+        "make": "Intel",
+        "model": "NUC 12 Extreme (Dragon Canyon)",
+        "year": 2022,
+        "form_factor": "Mini PC",
+        "supported_os": [
+            "Windows 11"
+        ],
+        "cpu_options": [
+            {
+                "name": "Intel Core i9-12900",
+                "cores": 16
+            },
+            {
+                "name": "Intel Core i7-12700",
+                "cores": 12
+            }
+        ],
+        "ram_options": [
+            16384,
+            32768,
+            65536
+        ],
+        "storage_options": [
+            512,
+            1024,
+            2048,
+            4096
+        ],
+        "gpu_options": [
+            {
+                "name": "NVIDIA GeForce RTX 3060",
+                "vram": 12288
+            },
+            {
+                "name": "NVIDIA GeForce RTX 3080",
+                "vram": 10240
+            }
+        ],
+        "resolution_options": [
+            "1920x1080",
+            "2560x1440",
+            "3840x2160"
+        ]
+    },
+    {
+        "make": "Apple",
+        "model": "Mac Mini (Intel)",
+        "year": 2018,
+        "form_factor": "Mini PC",
+        "supported_os": [
+            "Windows 10"
+        ],
+        "cpu_options": [
+            {
+                "name": "Intel Core i3-8100B",
+                "cores": 4
+            },
+            {
+                "name": "Intel Core i5-8500B",
+                "cores": 6
+            },
+            {
+                "name": "Intel Core i7-8700B",
+                "cores": 6
+            }
+        ],
+        "ram_options": [
+            8192,
+            16384,
+            32768,
+            65536
+        ],
+        "storage_options": [
+            128,
+            256,
+            512,
+            1024,
+            2048
+        ],
+        "gpu_options": [
+            {
+                "name": "Intel UHD Graphics 630",
+                "vram": 1536
+            }
+        ],
+        "resolution_options": [
+            "1920x1080",
+            "2560x1440"
+        ]
+    },
+    {
+        "make": "Panasonic",
+        "model": "Toughbook CF-31",
+        "year": 2012,
+        "form_factor": "Rugged Laptop",
+        "supported_os": [
+            "Windows 7",
+            "Windows 10"
+        ],
+        "cpu_options": [
+            {
+                "name": "Intel Core i5-3320M",
+                "cores": 2
+            },
+            {
+                "name": "Intel Core i5-5300U",
+                "cores": 2
+            }
+        ],
+        "ram_options": [
+            4096,
+            8192,
+            16384
+        ],
+        "storage_options": [
+            128,
+            256,
+            500
+        ],
+        "gpu_options": [
+            {
+                "name": "Intel HD Graphics",
+                "vram": 0
+            },
+            {
+                "name": "AMD Radeon HD 7750M",
+                "vram": 1024
+            }
+        ],
+        "resolution_options": [
+            "1024x768"
+        ]
+    },
+    {
+        "make": "Dell",
+        "model": "Latitude 7424 Rugged Extreme",
+        "year": 2019,
+        "form_factor": "Rugged Laptop",
+        "supported_os": [
+            "Windows 10",
+            "Windows 11"
+        ],
+        "cpu_options": [
+            {
+                "name": "Intel Core i7-8650U",
+                "cores": 4
+            },
+            {
+                "name": "Intel Core i5-8350U",
+                "cores": 4
+            }
+        ],
+        "ram_options": [
+            8192,
+            16384,
+            32768
+        ],
+        "storage_options": [
+            512,
+            1024,
+            2048
+        ],
+        "gpu_options": [
+            {
+                "name": "AMD Radeon RX 540",
+                "vram": 4096
+            },
+            {
+                "name": "Intel UHD Graphics 620",
+                "vram": 0
+            }
+        ],
+        "resolution_options": [
+            "1920x1080"
+        ]
+    },
+    {
+        "make": "Dell",
+        "model": "PowerEdge R740",
+        "year": 2017,
+        "form_factor": "Server",
+        "supported_os": [
+            "Windows Server 2016",
+            "Windows Server 2019",
+            "Windows Server 2022"
+        ],
+        "cpu_options": [
+            {
+                "name": "Intel Xeon Gold 6130",
+                "cores": 16
+            },
+            {
+                "name": "Intel Xeon Platinum 8180",
+                "cores": 28
+            }
+        ],
+        "ram_options": [
+            32768,
+            65536,
+            131072,
+            262144
+        ],
+        "storage_options": [
+            1024,
+            2048,
+            4096,
+            8192,
+            16384
+        ],
+        "gpu_options": [
+            {
+                "name": "Matrox G200eW3",
+                "vram": 16
+            },
+            {
+                "name": "NVIDIA Tesla T4",
+                "vram": 16384
+            }
+        ],
+        "resolution_options": [
+            "1024x768",
+            "1280x1024",
+            "1920x1080"
+        ]
+    },
+    {
+        "make": "HP",
+        "model": "ProLiant DL380 Gen10",
+        "year": 2017,
+        "form_factor": "Server",
+        "supported_os": [
+            "Windows Server 2016",
+            "Windows Server 2019"
+        ],
+        "cpu_options": [
+            {
+                "name": "Intel Xeon Silver 4110",
+                "cores": 8
+            },
+            {
+                "name": "Intel Xeon Gold 5118",
+                "cores": 12
+            }
+        ],
+        "ram_options": [
+            16384,
+            32768,
+            65536,
+            131072
+        ],
+        "storage_options": [
+            500,
+            1000,
+            2000,
+            4000
+        ],
+        "gpu_options": [
+            {
+                "name": "Integrated Matrox G200eH2",
+                "vram": 16
+            }
+        ],
+        "resolution_options": [
+            "1024x768"
+        ]
+    },
+    {
+        "make": "AWS",
+        "model": "EC2 t2.micro",
+        "year": 2014,
+        "form_factor": "Cloud VM",
+        "supported_os": [
+            "Windows Server 2012 R2",
+            "Windows Server 2016"
+        ],
+        "cpu_options": [
+            {
+                "name": "Intel Xeon Family (vCPU)",
+                "cores": 1
+            }
+        ],
+        "ram_options": [
+            1024
+        ],
+        "storage_options": [
+            30
+        ],
+        "gpu_options": [
+            {
+                "name": "Basic Display Adapter",
+                "vram": 0
+            }
+        ],
+        "resolution_options": [
+            "1024x768"
+        ]
+    },
+    {
+        "make": "Azure",
+        "model": "Standard_D2s_v3",
+        "year": 2017,
+        "form_factor": "Cloud VM",
+        "supported_os": [
+            "Windows Server 2016",
+            "Windows Server 2019",
+            "Windows 10 Enterprise"
+        ],
+        "cpu_options": [
+            {
+                "name": "Intel Xeon Platinum 8171M",
+                "cores": 2
+            }
+        ],
+        "ram_options": [
+            8192
+        ],
+        "storage_options": [
+            128
+        ],
+        "gpu_options": [
+            {
+                "name": "Microsoft Hyper-V Video",
+                "vram": 0
+            }
+        ],
+        "resolution_options": [
+            "1024x768",
+            "1920x1080"
+        ]
+    },
+    {
+        "make": "Dell",
+        "model": "Dimension 3000",
+        "year": 2004,
+        "form_factor": "Desktop",
+        "supported_os": [
+            "Windows XP"
+        ],
+        "cpu_options": [
+            {
+                "name": "Intel Pentium 4",
+                "cores": 1
+            }
+        ],
+        "ram_options": [
+            512,
+            1024,
+            2048
+        ],
+        "storage_options": [
+            80,
+            160
+        ],
+        "gpu_options": [
+            {
+                "name": "Intel Extreme Graphics 2",
+                "vram": 64
+            }
+        ],
+        "resolution_options": [
+            "800x600",
+            "1024x768"
+        ]
+    },
+    {
+        "make": "HP",
+        "model": "Compaq dc7800",
+        "year": 2007,
+        "form_factor": "Desktop",
+        "supported_os": [
+            "Windows XP",
+            "Windows Vista",
+            "Windows 7"
+        ],
+        "cpu_options": [
+            {
+                "name": "Intel Core 2 Duo E6550",
+                "cores": 2
+            },
+            {
+                "name": "Intel Core 2 Quad Q6600",
+                "cores": 4
+            }
+        ],
+        "ram_options": [
+            2048,
+            4096,
+            8192
+        ],
+        "storage_options": [
+            160,
+            250,
+            500
+        ],
+        "gpu_options": [
+            {
+                "name": "Intel GMA 3100",
+                "vram": 256
+            }
+        ],
+        "resolution_options": [
+            "1024x768",
+            "1280x1024"
+        ]
+    },
+    {
+        "make": "Xiaomi",
+        "model": "Mi Notebook Pro",
+        "year": 2019,
+        "form_factor": "Laptop",
+        "supported_os": [
+            "Windows 10"
+        ],
+        "cpu_options": [
+            {
+                "name": "Intel Core i5-8250U",
+                "cores": 4
+            },
+            {
+                "name": "Intel Core i7-8550U",
+                "cores": 4
+            }
+        ],
+        "ram_options": [
+            8192,
+            16384
+        ],
+        "storage_options": [
+            256,
+            512
+        ],
+        "gpu_options": [
+            {
+                "name": "Intel UHD Graphics 620",
+                "vram": 0
+            },
+            {
+                "name": "NVIDIA GeForce MX250",
+                "vram": 2048
+            }
+        ],
+        "resolution_options": [
+            "1920x1080"
+        ]
+    },
+    {
+        "make": "Huawei",
+        "model": "MateBook X Pro",
+        "year": 2020,
+        "form_factor": "Laptop",
+        "supported_os": [
+            "Windows 10",
+            "Windows 11"
+        ],
+        "cpu_options": [
+            {
+                "name": "Intel Core i5-10210U",
+                "cores": 4
+            },
+            {
+                "name": "Intel Core i7-10510U",
+                "cores": 4
+            }
+        ],
+        "ram_options": [
+            16384
+        ],
+        "storage_options": [
+            512,
+            1024
+        ],
+        "gpu_options": [
+            {
+                "name": "Intel UHD Graphics",
+                "vram": 0
+            },
+            {
+                "name": "NVIDIA GeForce MX250",
+                "vram": 2048
+            }
+        ],
+        "resolution_options": [
+            "3000x2000"
+        ]
+    },
+    {
+        "make": "GPD",
+        "model": "Win 3",
+        "year": 2021,
+        "form_factor": "Handheld",
+        "supported_os": [
+            "Windows 10"
+        ],
+        "cpu_options": [
+            {
+                "name": "Intel Core i5-1135G7",
+                "cores": 4
+            },
+            {
+                "name": "Intel Core i7-1165G7",
+                "cores": 4
+            }
+        ],
+        "ram_options": [
+            16384
+        ],
+        "storage_options": [
+            1024
+        ],
+        "gpu_options": [
+            {
+                "name": "Intel Iris Xe Graphics",
+                "vram": 0
+            }
+        ],
+        "resolution_options": [
+            "1280x720"
+        ]
+    },
+    {
+        "make": "GPD",
+        "model": "Win Max 2",
+        "year": 2022,
+        "form_factor": "Handheld",
+        "supported_os": [
+            "Windows 11"
+        ],
+        "cpu_options": [
+            {
+                "name": "AMD Ryzen 7 6800U",
+                "cores": 8
+            },
+            {
+                "name": "Intel Core i7-1260P",
+                "cores": 12
+            }
+        ],
+        "ram_options": [
+            16384,
+            32768
+        ],
+        "storage_options": [
+            1024,
+            2048
+        ],
+        "gpu_options": [
+            {
+                "name": "AMD Radeon 680M",
+                "vram": 0
+            },
+            {
+                "name": "Intel Iris Xe Graphics",
+                "vram": 0
+            }
+        ],
+        "resolution_options": [
+            "2560x1600"
+        ]
+    }
+]

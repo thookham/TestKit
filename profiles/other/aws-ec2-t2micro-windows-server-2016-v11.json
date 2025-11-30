@@ -1,0 +1,26 @@
+{
+  "id": "aws-ec2-t2micro-windows-server-2016-v11",
+  "metadata": {
+    "make": "AWS",
+    "model": "EC2 t2.micro",
+    "year": 2014,
+    "os_target": "Windows Server 2016",
+    "form_factor": "Cloud VM"
+  },
+  "hardware": {
+    "cpu_cores": 1,
+    "cpu_name": "Intel Xeon Family (vCPU)",
+    "ram_mb": 1024,
+    "storage_gb": 30,
+    "gpu_name": "Basic Display Adapter",
+    "gpu_vram_mb": 0,
+    "screen_resolution": "1024x768"
+  },
+  "environment": {
+    "accessibility_mode": "High Contrast",
+    "boot_mode": "Normal"
+  },
+  "software": {
+    "primary_browser": "Firefox"
+  }
+}

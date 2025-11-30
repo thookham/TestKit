@@ -1,0 +1,26 @@
+{
+  "id": "hp-envy-x360-13-windows-10-v37",
+  "metadata": {
+    "make": "HP",
+    "model": "Envy x360 13",
+    "year": 2020,
+    "os_target": "Windows 10",
+    "form_factor": "2-in-1"
+  },
+  "hardware": {
+    "cpu_cores": 8,
+    "cpu_name": "AMD Ryzen 7 4700U",
+    "ram_mb": 16384,
+    "storage_gb": 256,
+    "gpu_name": "AMD Radeon Graphics",
+    "gpu_vram_mb": 512,
+    "screen_resolution": "1920x1080"
+  },
+  "environment": {
+    "accessibility_mode": "Standard",
+    "boot_mode": "Normal"
+  },
+  "software": {
+    "primary_browser": "Chrome"
+  }
+}

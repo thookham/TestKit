@@ -1,0 +1,26 @@
+{
+  "id": "gpd-win-max-2-windows-11-v35",
+  "metadata": {
+    "make": "GPD",
+    "model": "Win Max 2",
+    "year": 2022,
+    "os_target": "Windows 11",
+    "form_factor": "Handheld"
+  },
+  "hardware": {
+    "cpu_cores": 8,
+    "cpu_name": "AMD Ryzen 7 6800U",
+    "ram_mb": 32768,
+    "storage_gb": 1024,
+    "gpu_name": "Intel Iris Xe Graphics",
+    "gpu_vram_mb": 0,
+    "screen_resolution": "2560x1600"
+  },
+  "environment": {
+    "accessibility_mode": "High Contrast",
+    "boot_mode": "Normal"
+  },
+  "software": {
+    "primary_browser": "Firefox"
+  }
+}

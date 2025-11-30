@@ -1,0 +1,26 @@
+{
+  "id": "intel-nuc-12-extreme-(dragon-canyon)-windows-11-v383",
+  "metadata": {
+    "make": "Intel",
+    "model": "NUC 12 Extreme (Dragon Canyon)",
+    "year": 2022,
+    "os_target": "Windows 11",
+    "form_factor": "Mini PC"
+  },
+  "hardware": {
+    "cpu_cores": 16,
+    "cpu_name": "Intel Core i9-12900",
+    "ram_mb": 65536,
+    "storage_gb": 2048,
+    "gpu_name": "NVIDIA GeForce RTX 3080",
+    "gpu_vram_mb": 10240,
+    "screen_resolution": "1920x1080"
+  },
+  "environment": {
+    "accessibility_mode": "High Contrast",
+    "boot_mode": "Normal"
+  },
+  "software": {
+    "primary_browser": "Firefox"
+  }
+}

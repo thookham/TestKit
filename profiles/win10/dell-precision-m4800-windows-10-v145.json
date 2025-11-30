@@ -1,0 +1,26 @@
+{
+  "id": "dell-precision-m4800-windows-10-v145",
+  "metadata": {
+    "make": "Dell",
+    "model": "Precision M4800",
+    "year": 2013,
+    "os_target": "Windows 10",
+    "form_factor": "Laptop"
+  },
+  "hardware": {
+    "cpu_cores": 4,
+    "cpu_name": "Intel Core i7-4800MQ",
+    "ram_mb": 16384,
+    "storage_gb": 1024,
+    "gpu_name": "NVIDIA Quadro K2100M",
+    "gpu_vram_mb": 2048,
+    "screen_resolution": "1920x1080"
+  },
+  "environment": {
+    "accessibility_mode": "Standard",
+    "boot_mode": "Normal"
+  },
+  "software": {
+    "primary_browser": "Chrome"
+  }
+}

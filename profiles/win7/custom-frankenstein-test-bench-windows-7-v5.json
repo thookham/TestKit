@@ -1,0 +1,26 @@
+{
+  "id": "custom-frankenstein-test-bench-windows-7-v5",
+  "metadata": {
+    "make": "Custom",
+    "model": "Frankenstein Test Bench",
+    "year": 2015,
+    "os_target": "Windows 7",
+    "form_factor": "Desktop"
+  },
+  "hardware": {
+    "cpu_cores": 8,
+    "cpu_name": "AMD FX-8350",
+    "ram_mb": 4096,
+    "storage_gb": 120,
+    "gpu_name": "NVIDIA GeForce GT 710",
+    "gpu_vram_mb": 1024,
+    "screen_resolution": "800x600"
+  },
+  "environment": {
+    "accessibility_mode": "High Contrast",
+    "boot_mode": "Normal"
+  },
+  "software": {
+    "primary_browser": "Chrome"
+  }
+}

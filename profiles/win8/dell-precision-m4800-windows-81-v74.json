@@ -1,0 +1,26 @@
+{
+  "id": "dell-precision-m4800-windows-81-v74",
+  "metadata": {
+    "make": "Dell",
+    "model": "Precision M4800",
+    "year": 2013,
+    "os_target": "Windows 8.1",
+    "form_factor": "Laptop"
+  },
+  "hardware": {
+    "cpu_cores": 4,
+    "cpu_name": "Intel Core i7-4800MQ",
+    "ram_mb": 16384,
+    "storage_gb": 500,
+    "gpu_name": "NVIDIA Quadro K2100M",
+    "gpu_vram_mb": 2048,
+    "screen_resolution": "3200x1800"
+  },
+  "environment": {
+    "accessibility_mode": "Standard",
+    "boot_mode": "Normal"
+  },
+  "software": {
+    "primary_browser": "Firefox"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "acer-aspire-5750g-windows-7-v22",
+  "metadata": {
+    "make": "Acer",
+    "model": "Aspire 5750G",
+    "year": 2011,
+    "os_target": "Windows 7",
+    "form_factor": "Laptop"
+  },
+  "hardware": {
+    "cpu_cores": 2,
+    "cpu_name": "Intel Core i5-2410M",
+    "ram_mb": 8192,
+    "storage_gb": 500,
+    "gpu_name": "NVIDIA GeForce GT 540M",
+    "gpu_vram_mb": 1024,
+    "screen_resolution": "1366x768"
+  },
+  "environment": {
+    "accessibility_mode": "High Contrast",
+    "boot_mode": "Normal"
+  },
+  "software": {
+    "primary_browser": "Firefox"
+  }
+}

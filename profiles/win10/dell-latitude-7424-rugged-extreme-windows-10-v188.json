@@ -1,0 +1,26 @@
+{
+  "id": "dell-latitude-7424-rugged-extreme-windows-10-v188",
+  "metadata": {
+    "make": "Dell",
+    "model": "Latitude 7424 Rugged Extreme",
+    "year": 2019,
+    "os_target": "Windows 10",
+    "form_factor": "Rugged Laptop"
+  },
+  "hardware": {
+    "cpu_cores": 4,
+    "cpu_name": "Intel Core i5-8350U",
+    "ram_mb": 32768,
+    "storage_gb": 512,
+    "gpu_name": "Intel UHD Graphics 620",
+    "gpu_vram_mb": 0,
+    "screen_resolution": "1920x1080"
+  },
+  "environment": {
+    "accessibility_mode": "Standard",
+    "boot_mode": "Normal"
+  },
+  "software": {
+    "primary_browser": "Firefox"
+  }
+}

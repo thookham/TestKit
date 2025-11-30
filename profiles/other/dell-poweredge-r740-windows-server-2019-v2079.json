@@ -1,0 +1,26 @@
+{
+  "id": "dell-poweredge-r740-windows-server-2019-v2079",
+  "metadata": {
+    "make": "Dell",
+    "model": "PowerEdge R740",
+    "year": 2017,
+    "os_target": "Windows Server 2019",
+    "form_factor": "Server"
+  },
+  "hardware": {
+    "cpu_cores": 16,
+    "cpu_name": "Intel Xeon Gold 6130",
+    "ram_mb": 262144,
+    "storage_gb": 4096,
+    "gpu_name": "NVIDIA Tesla T4",
+    "gpu_vram_mb": 16384,
+    "screen_resolution": "1280x1024"
+  },
+  "environment": {
+    "accessibility_mode": "Standard",
+    "boot_mode": "Normal"
+  },
+  "software": {
+    "primary_browser": "Edge"
+  }
+}

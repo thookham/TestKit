@@ -1,0 +1,26 @@
+{
+  "id": "huawei-matebook-x-pro-windows-11-v71",
+  "metadata": {
+    "make": "Huawei",
+    "model": "MateBook X Pro",
+    "year": 2020,
+    "os_target": "Windows 11",
+    "form_factor": "Laptop"
+  },
+  "hardware": {
+    "cpu_cores": 4,
+    "cpu_name": "Intel Core i5-10210U",
+    "ram_mb": 16384,
+    "storage_gb": 1024,
+    "gpu_name": "NVIDIA GeForce MX250",
+    "gpu_vram_mb": 2048,
+    "screen_resolution": "3000x2000"
+  },
+  "environment": {
+    "accessibility_mode": "High Contrast",
+    "boot_mode": "Normal"
+  },
+  "software": {
+    "primary_browser": "Firefox"
+  }
+}

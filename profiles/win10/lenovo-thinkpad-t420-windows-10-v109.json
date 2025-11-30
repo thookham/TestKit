@@ -1,0 +1,26 @@
+{
+  "id": "lenovo-thinkpad-t420-windows-10-v109",
+  "metadata": {
+    "make": "Lenovo",
+    "model": "ThinkPad T420",
+    "year": 2011,
+    "os_target": "Windows 10",
+    "form_factor": "Laptop"
+  },
+  "hardware": {
+    "cpu_cores": 2,
+    "cpu_name": "Intel Core i5-2520M",
+    "ram_mb": 8192,
+    "storage_gb": 320,
+    "gpu_name": "Intel HD Graphics 3000",
+    "gpu_vram_mb": 512,
+    "screen_resolution": "1600x900"
+  },
+  "environment": {
+    "accessibility_mode": "High Contrast",
+    "boot_mode": "Normal"
+  },
+  "software": {
+    "primary_browser": "Chrome"
+  }
+}

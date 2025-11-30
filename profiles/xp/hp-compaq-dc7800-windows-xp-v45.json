@@ -1,0 +1,26 @@
+{
+  "id": "hp-compaq-dc7800-windows-xp-v45",
+  "metadata": {
+    "make": "HP",
+    "model": "Compaq dc7800",
+    "year": 2007,
+    "os_target": "Windows XP",
+    "form_factor": "Desktop"
+  },
+  "hardware": {
+    "cpu_cores": 2,
+    "cpu_name": "Intel Core 2 Duo E6550",
+    "ram_mb": 2048,
+    "storage_gb": 500,
+    "gpu_name": "Intel GMA 3100",
+    "gpu_vram_mb": 256,
+    "screen_resolution": "1280x1024"
+  },
+  "environment": {
+    "accessibility_mode": "High Contrast",
+    "boot_mode": "Normal"
+  },
+  "software": {
+    "primary_browser": "Chrome"
+  }
+}

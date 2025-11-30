@@ -1,0 +1,26 @@
+{
+  "id": "lenovo-legion-go-windows-11-v10",
+  "metadata": {
+    "make": "Lenovo",
+    "model": "Legion Go",
+    "year": 2023,
+    "os_target": "Windows 11",
+    "form_factor": "Handheld"
+  },
+  "hardware": {
+    "cpu_cores": 8,
+    "cpu_name": "AMD Ryzen Z1 Extreme",
+    "ram_mb": 16384,
+    "storage_gb": 1024,
+    "gpu_name": "AMD Radeon Graphics (RDNA 3)",
+    "gpu_vram_mb": 4096,
+    "screen_resolution": "2560x1600"
+  },
+  "environment": {
+    "accessibility_mode": "High Contrast",
+    "boot_mode": "Normal"
+  },
+  "software": {
+    "primary_browser": "Chrome"
+  }
+}

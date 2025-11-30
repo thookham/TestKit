@@ -1,0 +1,19 @@
+{
+    "id": "template-xp-laptop",
+    "metadata": {
+        "make": "Generic",
+        "model": "XP Laptop Template",
+        "year": 2005,
+        "os_target": "Windows XP",
+        "form_factor": "Laptop"
+    },
+    "hardware": {
+        "cpu_cores": 1,
+        "cpu_name": "Intel Pentium M",
+        "ram_mb": 512,
+        "storage_gb": 40,
+        "gpu_name": "Integrated Graphics",
+        "gpu_vram_mb": 64,
+        "screen_resolution": "1024x768"
+    }
+}

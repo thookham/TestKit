@@ -1,0 +1,26 @@
+{
+  "id": "hp-proliant-dl380-gen10-windows-server-2016-v4",
+  "metadata": {
+    "make": "HP",
+    "model": "ProLiant DL380 Gen10",
+    "year": 2017,
+    "os_target": "Windows Server 2016",
+    "form_factor": "Server"
+  },
+  "hardware": {
+    "cpu_cores": 8,
+    "cpu_name": "Intel Xeon Silver 4110",
+    "ram_mb": 16384,
+    "storage_gb": 500,
+    "gpu_name": "Integrated Matrox G200eH2",
+    "gpu_vram_mb": 16,
+    "screen_resolution": "1024x768"
+  },
+  "environment": {
+    "accessibility_mode": "High Contrast",
+    "boot_mode": "Normal"
+  },
+  "software": {
+    "primary_browser": "Chrome"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "azure-standard_d2s_v3-windows-server-2019-v17",
+  "metadata": {
+    "make": "Azure",
+    "model": "Standard_D2s_v3",
+    "year": 2017,
+    "os_target": "Windows Server 2019",
+    "form_factor": "Cloud VM"
+  },
+  "hardware": {
+    "cpu_cores": 2,
+    "cpu_name": "Intel Xeon Platinum 8171M",
+    "ram_mb": 8192,
+    "storage_gb": 128,
+    "gpu_name": "Microsoft Hyper-V Video",
+    "gpu_vram_mb": 0,
+    "screen_resolution": "1024x768"
+  },
+  "environment": {
+    "accessibility_mode": "High Contrast",
+    "boot_mode": "Normal"
+  },
+  "software": {
+    "primary_browser": "Firefox"
+  }
+}

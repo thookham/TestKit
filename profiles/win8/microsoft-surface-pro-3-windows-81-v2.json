@@ -1,0 +1,26 @@
+{
+  "id": "microsoft-surface-pro-3-windows-81-v2",
+  "metadata": {
+    "make": "Microsoft",
+    "model": "Surface Pro 3",
+    "year": 2014,
+    "os_target": "Windows 8.1",
+    "form_factor": "Tablet"
+  },
+  "hardware": {
+    "cpu_cores": 2,
+    "cpu_name": "Intel Core i5-4300U",
+    "ram_mb": 4096,
+    "storage_gb": 128,
+    "gpu_name": "Intel HD Graphics 4400",
+    "gpu_vram_mb": 1024,
+    "screen_resolution": "2160x1440"
+  },
+  "environment": {
+    "accessibility_mode": "Standard",
+    "boot_mode": "Normal"
+  },
+  "software": {
+    "primary_browser": "Firefox"
+  }
+}

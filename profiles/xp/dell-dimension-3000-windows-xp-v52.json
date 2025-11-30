@@ -1,0 +1,26 @@
+{
+  "id": "dell-dimension-3000-windows-xp-v52",
+  "metadata": {
+    "make": "Dell",
+    "model": "Dimension 3000",
+    "year": 2004,
+    "os_target": "Windows XP",
+    "form_factor": "Desktop"
+  },
+  "hardware": {
+    "cpu_cores": 1,
+    "cpu_name": "Intel Pentium 4",
+    "ram_mb": 1024,
+    "storage_gb": 160,
+    "gpu_name": "Intel Extreme Graphics 2",
+    "gpu_vram_mb": 64,
+    "screen_resolution": "800x600"
+  },
+  "environment": {
+    "accessibility_mode": "Standard",
+    "boot_mode": "Normal"
+  },
+  "software": {
+    "primary_browser": "Internet Explorer"
+  }
+}

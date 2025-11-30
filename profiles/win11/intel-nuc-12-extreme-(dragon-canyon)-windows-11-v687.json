@@ -1,0 +1,26 @@
+{
+  "id": "intel-nuc-12-extreme-(dragon-canyon)-windows-11-v687",
+  "metadata": {
+    "make": "Intel",
+    "model": "NUC 12 Extreme (Dragon Canyon)",
+    "year": 2022,
+    "os_target": "Windows 11",
+    "form_factor": "Mini PC"
+  },
+  "hardware": {
+    "cpu_cores": 12,
+    "cpu_name": "Intel Core i7-12700",
+    "ram_mb": 32768,
+    "storage_gb": 4096,
+    "gpu_name": "NVIDIA GeForce RTX 3060",
+    "gpu_vram_mb": 12288,
+    "screen_resolution": "1920x1080"
+  },
+  "environment": {
+    "accessibility_mode": "Standard",
+    "boot_mode": "Normal"
+  },
+  "software": {
+    "primary_browser": "Edge"
+  }
+}

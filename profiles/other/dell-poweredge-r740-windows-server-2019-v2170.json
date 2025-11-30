@@ -1,0 +1,26 @@
+{
+  "id": "dell-poweredge-r740-windows-server-2019-v2170",
+  "metadata": {
+    "make": "Dell",
+    "model": "PowerEdge R740",
+    "year": 2017,
+    "os_target": "Windows Server 2019",
+    "form_factor": "Server"
+  },
+  "hardware": {
+    "cpu_cores": 28,
+    "cpu_name": "Intel Xeon Platinum 8180",
+    "ram_mb": 32768,
+    "storage_gb": 1024,
+    "gpu_name": "Matrox G200eW3",
+    "gpu_vram_mb": 16,
+    "screen_resolution": "1280x1024"
+  },
+  "environment": {
+    "accessibility_mode": "High Contrast",
+    "boot_mode": "Normal"
+  },
+  "software": {
+    "primary_browser": "Chrome"
+  }
+}

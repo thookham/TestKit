@@ -1,0 +1,26 @@
+{
+  "id": "panasonic-toughbook-cf-31-windows-7-v123",
+  "metadata": {
+    "make": "Panasonic",
+    "model": "Toughbook CF-31",
+    "year": 2012,
+    "os_target": "Windows 7",
+    "form_factor": "Rugged Laptop"
+  },
+  "hardware": {
+    "cpu_cores": 2,
+    "cpu_name": "Intel Core i5-3320M",
+    "ram_mb": 16384,
+    "storage_gb": 256,
+    "gpu_name": "AMD Radeon HD 7750M",
+    "gpu_vram_mb": 1024,
+    "screen_resolution": "1024x768"
+  },
+  "environment": {
+    "accessibility_mode": "Standard",
+    "boot_mode": "Normal"
+  },
+  "software": {
+    "primary_browser": "Edge"
+  }
+}

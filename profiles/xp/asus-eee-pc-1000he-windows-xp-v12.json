@@ -1,0 +1,26 @@
+{
+  "id": "asus-eee-pc-1000he-windows-xp-v12",
+  "metadata": {
+    "make": "Asus",
+    "model": "Eee PC 1000HE",
+    "year": 2009,
+    "os_target": "Windows XP",
+    "form_factor": "Netbook"
+  },
+  "hardware": {
+    "cpu_cores": 1,
+    "cpu_name": "Intel Atom N280",
+    "ram_mb": 2048,
+    "storage_gb": 160,
+    "gpu_name": "Intel GMA 950",
+    "gpu_vram_mb": 64,
+    "screen_resolution": "1024x600"
+  },
+  "environment": {
+    "accessibility_mode": "Standard",
+    "boot_mode": "Normal"
+  },
+  "software": {
+    "primary_browser": "Internet Explorer"
+  }
+}

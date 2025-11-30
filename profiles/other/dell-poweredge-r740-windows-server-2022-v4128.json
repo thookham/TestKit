@@ -1,0 +1,26 @@
+{
+  "id": "dell-poweredge-r740-windows-server-2022-v4128",
+  "metadata": {
+    "make": "Dell",
+    "model": "PowerEdge R740",
+    "year": 2017,
+    "os_target": "Windows Server 2022",
+    "form_factor": "Server"
+  },
+  "hardware": {
+    "cpu_cores": 28,
+    "cpu_name": "Intel Xeon Platinum 8180",
+    "ram_mb": 131072,
+    "storage_gb": 16384,
+    "gpu_name": "NVIDIA Tesla T4",
+    "gpu_vram_mb": 16384,
+    "screen_resolution": "1024x768"
+  },
+  "environment": {
+    "accessibility_mode": "High Contrast",
+    "boot_mode": "Normal"
+  },
+  "software": {
+    "primary_browser": "Edge"
+  }
+}

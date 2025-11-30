@@ -1,0 +1,26 @@
+{
+  "id": "lenovo-thinkpad-t480-windows-10-v216",
+  "metadata": {
+    "make": "Lenovo",
+    "model": "ThinkPad T480",
+    "year": 2018,
+    "os_target": "Windows 10",
+    "form_factor": "Laptop"
+  },
+  "hardware": {
+    "cpu_cores": 4,
+    "cpu_name": "Intel Core i7-8550U",
+    "ram_mb": 32768,
+    "storage_gb": 1024,
+    "gpu_name": "Intel UHD Graphics 620",
+    "gpu_vram_mb": 1024,
+    "screen_resolution": "2560x1440"
+  },
+  "environment": {
+    "accessibility_mode": "High Contrast",
+    "boot_mode": "Normal"
+  },
+  "software": {
+    "primary_browser": "Edge"
+  }
+}

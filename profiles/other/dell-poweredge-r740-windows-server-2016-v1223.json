@@ -1,0 +1,26 @@
+{
+  "id": "dell-poweredge-r740-windows-server-2016-v1223",
+  "metadata": {
+    "make": "Dell",
+    "model": "PowerEdge R740",
+    "year": 2017,
+    "os_target": "Windows Server 2016",
+    "form_factor": "Server"
+  },
+  "hardware": {
+    "cpu_cores": 28,
+    "cpu_name": "Intel Xeon Platinum 8180",
+    "ram_mb": 131072,
+    "storage_gb": 8192,
+    "gpu_name": "NVIDIA Tesla T4",
+    "gpu_vram_mb": 16384,
+    "screen_resolution": "1920x1080"
+  },
+  "environment": {
+    "accessibility_mode": "High Contrast",
+    "boot_mode": "Normal"
+  },
+  "software": {
+    "primary_browser": "Firefox"
+  }
+}

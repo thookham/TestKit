@@ -1,0 +1,26 @@
+{
+  "id": "valve-steam-deck-oled-windows-11-v17",
+  "metadata": {
+    "make": "Valve",
+    "model": "Steam Deck OLED",
+    "year": 2023,
+    "os_target": "Windows 11",
+    "form_factor": "Handheld"
+  },
+  "hardware": {
+    "cpu_cores": 4,
+    "cpu_name": "AMD Zen 2 Custom APU (Sephiroth)",
+    "ram_mb": 16384,
+    "storage_gb": 512,
+    "gpu_name": "AMD RDNA 2 Custom GPU",
+    "gpu_vram_mb": 1024,
+    "screen_resolution": "1280x800"
+  },
+  "environment": {
+    "accessibility_mode": "High Contrast",
+    "boot_mode": "Normal"
+  },
+  "software": {
+    "primary_browser": "Firefox"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "hp-stream-11-windows-81-v42",
+  "metadata": {
+    "make": "HP",
+    "model": "Stream 11",
+    "year": 2014,
+    "os_target": "Windows 8.1",
+    "form_factor": "Laptop"
+  },
+  "hardware": {
+    "cpu_cores": 8,
+    "cpu_name": "Microsoft SQ2 (Qualcomm ARM)",
+    "ram_mb": 8192,
+    "storage_gb": 128,
+    "gpu_name": "Adreno 685",
+    "gpu_vram_mb": 0,
+    "screen_resolution": "2880x1920"
+  },
+  "environment": {
+    "accessibility_mode": "High Contrast",
+    "boot_mode": "Normal"
+  },
+  "software": {
+    "primary_browser": "Edge"
+  }
+}

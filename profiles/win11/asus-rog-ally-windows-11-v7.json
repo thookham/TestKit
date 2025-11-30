@@ -1,0 +1,26 @@
+{
+  "id": "asus-rog-ally-windows-11-v7",
+  "metadata": {
+    "make": "Asus",
+    "model": "ROG Ally",
+    "year": 2023,
+    "os_target": "Windows 11",
+    "form_factor": "Handheld"
+  },
+  "hardware": {
+    "cpu_cores": 6,
+    "cpu_name": "AMD Ryzen Z1",
+    "ram_mb": 16384,
+    "storage_gb": 512,
+    "gpu_name": "AMD Radeon Graphics (RDNA 3)",
+    "gpu_vram_mb": 4096,
+    "screen_resolution": "1920x1080"
+  },
+  "environment": {
+    "accessibility_mode": "Standard",
+    "boot_mode": "Normal"
+  },
+  "software": {
+    "primary_browser": "Chrome"
+  }
+}

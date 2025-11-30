@@ -1,0 +1,26 @@
+{
+  "id": "microsoft-surface-pro-x-windows-11-v118",
+  "metadata": {
+    "make": "Microsoft",
+    "model": "Surface Pro X",
+    "year": 2019,
+    "os_target": "Windows 11",
+    "form_factor": "Tablet"
+  },
+  "hardware": {
+    "cpu_cores": 8,
+    "cpu_name": "Microsoft SQ2 (Qualcomm ARM)",
+    "ram_mb": 8192,
+    "storage_gb": 256,
+    "gpu_name": "Adreno 685",
+    "gpu_vram_mb": 0,
+    "screen_resolution": "2880x1920"
+  },
+  "environment": {
+    "accessibility_mode": "High Contrast",
+    "boot_mode": "Normal"
+  },
+  "software": {
+    "primary_browser": "Chrome"
+  }
+}
