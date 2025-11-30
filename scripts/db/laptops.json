@@ -1262,5 +1262,445 @@
         "resolution_options": [
             "2560x1600"
         ]
+    },
+    {
+        "make": "Acer",
+        "model": "Aspire Vero",
+        "year": 2021,
+        "form_factor": "Laptop",
+        "supported_os": [
+            "Windows 11"
+        ],
+        "cpu_options": [
+            {
+                "name": "Intel Core i5-1155G7",
+                "cores": 4
+            },
+            {
+                "name": "Intel Core i7-1195G7",
+                "cores": 4
+            }
+        ],
+        "ram_options": [
+            8192,
+            16384
+        ],
+        "storage_options": [
+            256,
+            512
+        ],
+        "gpu_options": [
+            {
+                "name": "Intel Iris Xe Graphics",
+                "vram": 0
+            }
+        ],
+        "resolution_options": [
+            "1920x1080"
+        ]
+    },
+    {
+        "make": "Acer",
+        "model": "Swift 3",
+        "year": 2020,
+        "form_factor": "Laptop",
+        "supported_os": [
+            "Windows 10",
+            "Windows 11"
+        ],
+        "cpu_options": [
+            {
+                "name": "Intel Core i5-1135G7",
+                "cores": 4
+            },
+            {
+                "name": "AMD Ryzen 5 5500U",
+                "cores": 6
+            }
+        ],
+        "ram_options": [
+            8192,
+            16384
+        ],
+        "storage_options": [
+            512
+        ],
+        "gpu_options": [
+            {
+                "name": "Intel Iris Xe Graphics",
+                "vram": 0
+            },
+            {
+                "name": "AMD Radeon Graphics",
+                "vram": 512
+            }
+        ],
+        "resolution_options": [
+            "1920x1080",
+            "2256x1504"
+        ]
+    },
+    {
+        "make": "Acer",
+        "model": "Predator Helios 300",
+        "year": 2021,
+        "form_factor": "Laptop",
+        "supported_os": [
+            "Windows 10",
+            "Windows 11"
+        ],
+        "cpu_options": [
+            {
+                "name": "Intel Core i7-11800H",
+                "cores": 8
+            },
+            {
+                "name": "Intel Core i7-12700H",
+                "cores": 14
+            }
+        ],
+        "ram_options": [
+            16384,
+            32768
+        ],
+        "storage_options": [
+            512,
+            1024
+        ],
+        "gpu_options": [
+            {
+                "name": "NVIDIA GeForce RTX 3060",
+                "vram": 6144
+            },
+            {
+                "name": "NVIDIA GeForce RTX 3070",
+                "vram": 8192
+            }
+        ],
+        "resolution_options": [
+            "1920x1080",
+            "2560x1440"
+        ]
+    },
+    {
+        "make": "MSI",
+        "model": "GS66 Stealth",
+        "year": 2020,
+        "form_factor": "Laptop",
+        "supported_os": [
+            "Windows 10",
+            "Windows 11"
+        ],
+        "cpu_options": [
+            {
+                "name": "Intel Core i7-10875H",
+                "cores": 8
+            },
+            {
+                "name": "Intel Core i9-11900H",
+                "cores": 8
+            }
+        ],
+        "ram_options": [
+            16384,
+            32768,
+            65536
+        ],
+        "storage_options": [
+            1024,
+            2048
+        ],
+        "gpu_options": [
+            {
+                "name": "NVIDIA GeForce RTX 2070 Super",
+                "vram": 8192
+            },
+            {
+                "name": "NVIDIA GeForce RTX 3080",
+                "vram": 16384
+            }
+        ],
+        "resolution_options": [
+            "1920x1080",
+            "2560x1440",
+            "3840x2160"
+        ]
+    },
+    {
+        "make": "MSI",
+        "model": "Creator Z16",
+        "year": 2021,
+        "form_factor": "Laptop",
+        "supported_os": [
+            "Windows 10",
+            "Windows 11"
+        ],
+        "cpu_options": [
+            {
+                "name": "Intel Core i7-11800H",
+                "cores": 8
+            },
+            {
+                "name": "Intel Core i9-11900H",
+                "cores": 8
+            }
+        ],
+        "ram_options": [
+            32768,
+            65536
+        ],
+        "storage_options": [
+            1024,
+            2048
+        ],
+        "gpu_options": [
+            {
+                "name": "NVIDIA GeForce RTX 3060",
+                "vram": 6144
+            }
+        ],
+        "resolution_options": [
+            "2560x1600"
+        ]
+    },
+    {
+        "make": "Gigabyte",
+        "model": "Aero 15 OLED",
+        "year": 2021,
+        "form_factor": "Laptop",
+        "supported_os": [
+            "Windows 10",
+            "Windows 11"
+        ],
+        "cpu_options": [
+            {
+                "name": "Intel Core i7-11800H",
+                "cores": 8
+            },
+            {
+                "name": "Intel Core i9-11980HK",
+                "cores": 8
+            }
+        ],
+        "ram_options": [
+            16384,
+            32768,
+            65536
+        ],
+        "storage_options": [
+            512,
+            1024,
+            2048
+        ],
+        "gpu_options": [
+            {
+                "name": "NVIDIA GeForce RTX 3070",
+                "vram": 8192
+            },
+            {
+                "name": "NVIDIA GeForce RTX 3080",
+                "vram": 8192
+            }
+        ],
+        "resolution_options": [
+            "3840x2160"
+        ]
+    },
+    {
+        "make": "Gigabyte",
+        "model": "Aorus 15G",
+        "year": 2020,
+        "form_factor": "Laptop",
+        "supported_os": [
+            "Windows 10",
+            "Windows 11"
+        ],
+        "cpu_options": [
+            {
+                "name": "Intel Core i7-10870H",
+                "cores": 8
+            }
+        ],
+        "ram_options": [
+            16384,
+            32768
+        ],
+        "storage_options": [
+            512,
+            1024
+        ],
+        "gpu_options": [
+            {
+                "name": "NVIDIA GeForce RTX 3070",
+                "vram": 8192
+            },
+            {
+                "name": "NVIDIA GeForce RTX 3080",
+                "vram": 8192
+            }
+        ],
+        "resolution_options": [
+            "1920x1080"
+        ]
+    },
+    {
+        "make": "System76",
+        "model": "Thelio",
+        "year": 2021,
+        "form_factor": "Desktop",
+        "supported_os": [
+            "Windows 10",
+            "Windows 11"
+        ],
+        "cpu_options": [
+            {
+                "name": "AMD Ryzen 5 5600X",
+                "cores": 6
+            },
+            {
+                "name": "AMD Ryzen 9 5950X",
+                "cores": 16
+            }
+        ],
+        "ram_options": [
+            16384,
+            32768,
+            65536,
+            131072
+        ],
+        "storage_options": [
+            512,
+            1024,
+            2048,
+            4096
+        ],
+        "gpu_options": [
+            {
+                "name": "AMD Radeon RX 6600 XT",
+                "vram": 8192
+            },
+            {
+                "name": "AMD Radeon RX 6900 XT",
+                "vram": 16384
+            }
+        ],
+        "resolution_options": [
+            "1920x1080",
+            "2560x1440",
+            "3840x2160"
+        ]
+    },
+    {
+        "make": "System76",
+        "model": "Lemur Pro",
+        "year": 2020,
+        "form_factor": "Laptop",
+        "supported_os": [
+            "Windows 10",
+            "Windows 11"
+        ],
+        "cpu_options": [
+            {
+                "name": "Intel Core i5-1135G7",
+                "cores": 4
+            },
+            {
+                "name": "Intel Core i7-1165G7",
+                "cores": 4
+            }
+        ],
+        "ram_options": [
+            8192,
+            16384,
+            24576,
+            40960
+        ],
+        "storage_options": [
+            256,
+            512,
+            1024
+        ],
+        "gpu_options": [
+            {
+                "name": "Intel Iris Xe Graphics",
+                "vram": 0
+            }
+        ],
+        "resolution_options": [
+            "1920x1080"
+        ]
+    },
+    {
+        "make": "Toshiba",
+        "model": "Satellite C55",
+        "year": 2014,
+        "form_factor": "Laptop",
+        "supported_os": [
+            "Windows 8.1",
+            "Windows 10"
+        ],
+        "cpu_options": [
+            {
+                "name": "Intel Celeron N2830",
+                "cores": 2
+            },
+            {
+                "name": "Intel Core i3-4005U",
+                "cores": 2
+            }
+        ],
+        "ram_options": [
+            4096,
+            8192
+        ],
+        "storage_options": [
+            500,
+            1024
+        ],
+        "gpu_options": [
+            {
+                "name": "Intel HD Graphics",
+                "vram": 0
+            }
+        ],
+        "resolution_options": [
+            "1366x768"
+        ]
+    },
+    {
+        "make": "Toshiba",
+        "model": "Port\u00e9g\u00e9 X30",
+        "year": 2017,
+        "form_factor": "Laptop",
+        "supported_os": [
+            "Windows 10"
+        ],
+        "cpu_options": [
+            {
+                "name": "Intel Core i5-7200U",
+                "cores": 2
+            },
+            {
+                "name": "Intel Core i7-8550U",
+                "cores": 4
+            }
+        ],
+        "ram_options": [
+            8192,
+            16384
+        ],
+        "storage_options": [
+            256,
+            512
+        ],
+        "gpu_options": [
+            {
+                "name": "Intel HD Graphics 620",
+                "vram": 0
+            }
+        ],
+        "resolution_options": [
+            "1920x1080"
+        ]
     }
 ]
