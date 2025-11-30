@@ -1,0 +1,26 @@
+{
+  "id": "gigabyte-aero-15-oled-windows-10-v152",
+  "metadata": {
+    "make": "Gigabyte",
+    "model": "Aero 15 OLED",
+    "year": 2021,
+    "os_target": "Windows 10",
+    "form_factor": "Laptop"
+  },
+  "hardware": {
+    "cpu_cores": 8,
+    "cpu_name": "Intel Core i9-11980HK",
+    "ram_mb": 32768,
+    "storage_gb": 512,
+    "gpu_name": "NVIDIA GeForce RTX 3080",
+    "gpu_vram_mb": 8192,
+    "screen_resolution": "3840x2160"
+  },
+  "environment": {
+    "accessibility_mode": "Standard",
+    "boot_mode": "Normal"
+  },
+  "software": {
+    "primary_browser": "Firefox"
+  }
+}

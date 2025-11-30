@@ -1,0 +1,70 @@
+---
+name: Hardware Addition
+about: Suggest new hardware to add to the database
+title: "[HARDWARE] "
+labels: ["hardware", "triage"]
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Suggest new hardware for the TestKit database.
+  - type: input
+    id: make
+    attributes:
+      label: Manufacturer
+      placeholder: e.g. Framework
+    validations:
+      required: true
+  - type: input
+    id: model
+    attributes:
+      label: Model Name
+      placeholder: e.g. Laptop 13 (AMD 7040 Series)
+    validations:
+      required: true
+  - type: input
+    id: year
+    attributes:
+      label: Release Year
+      placeholder: e.g. 2023
+    validations:
+      required: true
+  - type: dropdown
+    id: form-factor
+    attributes:
+      label: Form Factor
+      options:
+        - Laptop
+        - Desktop
+        - Tablet
+        - 2-in-1
+        - Handheld
+        - Server
+        - Cloud VM
+        - Mini PC
+        - Rugged
+        - Netbook
+    validations:
+      required: true
+  - type: textarea
+    id: specs
+    attributes:
+      label: Technical Specifications
+      description: Please list CPU options, RAM configurations, Storage options, and GPU options.
+      placeholder: |
+        CPU: AMD Ryzen 5 7640U, Ryzen 7 7840U
+        RAM: 8GB, 16GB, 32GB (DDR5)
+        Storage: 256GB - 4TB NVMe
+        GPU: AMD Radeon 760M / 780M
+        Screen: 2256x1504
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Source URL
+      description: Link to official manufacturer specs or reliable review.
+      placeholder: https://frame.work/products/laptop-13-gen-amd/specs
+    validations:
+      required: true

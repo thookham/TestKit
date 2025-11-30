@@ -5,6 +5,52 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.1.0] - 2024-11-30
+
+### Added
+- **Tier 1 Manufacturers**: Added 11 new hardware profiles from industry-leading manufacturers
+  - **Acer** (3 models): Aspire Vero (2021), Swift 3 (2020), Predator Helios 300 (2021)
+  - **MSI** (2 models): GS66 Stealth (2020), Creator Z16 (2021)
+  - **Gigabyte** (2 models): Aero 15 OLED (2021), Aorus 15G (2020)
+  - **System76** (2 models): Thelio Desktop (2021), Lemur Pro (2020)
+  - **Toshiba** (2 models): Satellite C55 (2014), Portégé X30 (2017)
+- **Profile Expansion**: Total hardware definitions increased from 34 to 45 models (+32%)
+- **Generated Profiles**: Profile count increased from 12,254 to **16,912** (+38%)
+- **Visual Documentation**: Added professional diagrams and visual assets
+  - Architecture workflow diagram
+  - Hardware coverage heat map
+  - Export flow diagram
+  - Professional banner/logo
+- **Enhanced Documentation**:
+  - Comprehensive README overhaul with badges, statistics, and best practices
+  - New ARCHITECTURE.md - Technical deep-dive into TestKit design
+  - New TUTORIALS.md - Step-by-step guides for common scenarios
+  - New HARDWARE_GUIDE.md - Complete catalog of all 45 base models
+  - New API_REFERENCE.md - Complete CLI and schema documentation
+  - Enhanced CONTRIBUTING.md with detailed contribution guidelines
+  - GitHub issue templates and PR template
+- **Documentation Sections**:
+  - "Why TestKit Stands Out" - Competitive comparisons
+  - "Best Practices" - Guidelines for effective profile usage
+  - "Learning Resources" - Organized documentation index
+  - "Statistics" - Comprehensive project metrics
+  - Enhanced FAQ with 6 common questions
+
+### Changed
+- Updated all documentation to reflect expanded hardware coverage
+- Reorganized README structure for better navigation
+- Enhanced Quick Start section with examples using new Tier 1 models
+- Improved Hardware Categories table with detailed profile counts
+- Updated repository structure documentation
+
+### Technical Details
+- All new profiles validated against JSON schema
+- CI/CD pipeline successfully processes expanded 45-model database
+- Profile generation time scales linearly with hardware count
+- All export formats (Docker, Vagrant, Terraform, WSB) tested with new profiles
+
+---
+
 ## [1.0.0] - 2024-11-29
 
 ### Added
@@ -19,3 +65,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
     - Windows Sandbox (`.wsb`)
 - **Documentation**: Comprehensive README with usage guides and examples.
 - **CI/CD**: GitHub Actions for validation and auto-generation.
+- **Community Files**:
+    - MIT License
+    - Code of Conduct (Contributor Covenant 2.1)
+    - Security Policy
+    - Contributing Guidelines
+- **Validation**: Database validation script with schema checking
+- **Hardware Coverage**:
+    - Standard Laptops (Lenovo, Dell, HP)
+    - Gaming Systems (Razer, Alienware)
+    - Handhelds (Steam Deck, ROG Ally, Legion Go, GPD)
+    - Tablets/2-in-1 (Microsoft Surface)
+    - Servers (Dell PowerEdge, HP ProLiant)
+    - Cloud VMs (AWS, Azure)
+    - Legacy Systems (Windows XP, Vista, 7)
+    - Global Manufacturers (Xiaomi, Huawei)

@@ -1,0 +1,26 @@
+{
+  "id": "system76-thelio-windows-11-v2024",
+  "metadata": {
+    "make": "System76",
+    "model": "Thelio",
+    "year": 2021,
+    "os_target": "Windows 11",
+    "form_factor": "Desktop"
+  },
+  "hardware": {
+    "cpu_cores": 16,
+    "cpu_name": "AMD Ryzen 9 5950X",
+    "ram_mb": 65536,
+    "storage_gb": 512,
+    "gpu_name": "AMD Radeon RX 6600 XT",
+    "gpu_vram_mb": 8192,
+    "screen_resolution": "2560x1440"
+  },
+  "environment": {
+    "accessibility_mode": "Standard",
+    "boot_mode": "Normal"
+  },
+  "software": {
+    "primary_browser": "Firefox"
+  }
+}

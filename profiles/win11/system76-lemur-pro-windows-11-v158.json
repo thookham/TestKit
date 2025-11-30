@@ -1,0 +1,26 @@
+{
+  "id": "system76-lemur-pro-windows-11-v158",
+  "metadata": {
+    "make": "System76",
+    "model": "Lemur Pro",
+    "year": 2020,
+    "os_target": "Windows 11",
+    "form_factor": "Laptop"
+  },
+  "hardware": {
+    "cpu_cores": 4,
+    "cpu_name": "Intel Core i5-1135G7",
+    "ram_mb": 8192,
+    "storage_gb": 1024,
+    "gpu_name": "Intel Iris Xe Graphics",
+    "gpu_vram_mb": 0,
+    "screen_resolution": "1920x1080"
+  },
+  "environment": {
+    "accessibility_mode": "Standard",
+    "boot_mode": "Normal"
+  },
+  "software": {
+    "primary_browser": "Firefox"
+  }
+}

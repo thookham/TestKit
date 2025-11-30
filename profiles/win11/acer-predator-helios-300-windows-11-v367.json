@@ -1,0 +1,26 @@
+{
+  "id": "acer-predator-helios-300-windows-11-v367",
+  "metadata": {
+    "make": "Acer",
+    "model": "Predator Helios 300",
+    "year": 2021,
+    "os_target": "Windows 11",
+    "form_factor": "Laptop"
+  },
+  "hardware": {
+    "cpu_cores": 14,
+    "cpu_name": "Intel Core i7-12700H",
+    "ram_mb": 32768,
+    "storage_gb": 1024,
+    "gpu_name": "NVIDIA GeForce RTX 3060",
+    "gpu_vram_mb": 6144,
+    "screen_resolution": "2560x1440"
+  },
+  "environment": {
+    "accessibility_mode": "Standard",
+    "boot_mode": "Normal"
+  },
+  "software": {
+    "primary_browser": "Chrome"
+  }
+}

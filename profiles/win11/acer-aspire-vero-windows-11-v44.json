@@ -1,0 +1,26 @@
+{
+  "id": "acer-aspire-vero-windows-11-v44",
+  "metadata": {
+    "make": "Acer",
+    "model": "Aspire Vero",
+    "year": 2021,
+    "os_target": "Windows 11",
+    "form_factor": "Laptop"
+  },
+  "hardware": {
+    "cpu_cores": 4,
+    "cpu_name": "Intel Core i7-1195G7",
+    "ram_mb": 16384,
+    "storage_gb": 512,
+    "gpu_name": "Intel Iris Xe Graphics",
+    "gpu_vram_mb": 0,
+    "screen_resolution": "1920x1080"
+  },
+  "environment": {
+    "accessibility_mode": "Standard",
+    "boot_mode": "Normal"
+  },
+  "software": {
+    "primary_browser": "Firefox"
+  }
+}

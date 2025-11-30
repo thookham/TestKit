@@ -1,0 +1,26 @@
+{
+  "id": "msi-gs66-stealth-windows-10-v37",
+  "metadata": {
+    "make": "MSI",
+    "model": "GS66 Stealth",
+    "year": 2020,
+    "os_target": "Windows 10",
+    "form_factor": "Laptop"
+  },
+  "hardware": {
+    "cpu_cores": 8,
+    "cpu_name": "Intel Core i7-10875H",
+    "ram_mb": 16384,
+    "storage_gb": 2048,
+    "gpu_name": "NVIDIA GeForce RTX 2070 Super",
+    "gpu_vram_mb": 8192,
+    "screen_resolution": "1920x1080"
+  },
+  "environment": {
+    "accessibility_mode": "Standard",
+    "boot_mode": "Normal"
+  },
+  "software": {
+    "primary_browser": "Chrome"
+  }
+}

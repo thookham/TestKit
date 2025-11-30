@@ -1,0 +1,26 @@
+{
+  "id": "toshiba-satellite-c55-windows-10-v80",
+  "metadata": {
+    "make": "Toshiba",
+    "model": "Satellite C55",
+    "year": 2014,
+    "os_target": "Windows 10",
+    "form_factor": "Laptop"
+  },
+  "hardware": {
+    "cpu_cores": 2,
+    "cpu_name": "Intel Core i3-4005U",
+    "ram_mb": 4096,
+    "storage_gb": 1024,
+    "gpu_name": "Intel HD Graphics",
+    "gpu_vram_mb": 0,
+    "screen_resolution": "1366x768"
+  },
+  "environment": {
+    "accessibility_mode": "Standard",
+    "boot_mode": "Normal"
+  },
+  "software": {
+    "primary_browser": "Firefox"
+  }
+}

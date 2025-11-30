@@ -1,0 +1,26 @@
+{
+  "id": "toshiba-satellite-c55-windows-81-v18",
+  "metadata": {
+    "make": "Toshiba",
+    "model": "Satellite C55",
+    "year": 2014,
+    "os_target": "Windows 8.1",
+    "form_factor": "Laptop"
+  },
+  "hardware": {
+    "cpu_cores": 2,
+    "cpu_name": "Intel Celeron N2830",
+    "ram_mb": 8192,
+    "storage_gb": 500,
+    "gpu_name": "Intel HD Graphics",
+    "gpu_vram_mb": 0,
+    "screen_resolution": "1366x768"
+  },
+  "environment": {
+    "accessibility_mode": "High Contrast",
+    "boot_mode": "Normal"
+  },
+  "software": {
+    "primary_browser": "Edge"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "gigabyte-aero-15-oled-windows-11-v279",
+  "metadata": {
+    "make": "Gigabyte",
+    "model": "Aero 15 OLED",
+    "year": 2021,
+    "os_target": "Windows 11",
+    "form_factor": "Laptop"
+  },
+  "hardware": {
+    "cpu_cores": 8,
+    "cpu_name": "Intel Core i7-11800H",
+    "ram_mb": 32768,
+    "storage_gb": 2048,
+    "gpu_name": "NVIDIA GeForce RTX 3070",
+    "gpu_vram_mb": 8192,
+    "screen_resolution": "3840x2160"
+  },
+  "environment": {
+    "accessibility_mode": "Standard",
+    "boot_mode": "Normal"
+  },
+  "software": {
+    "primary_browser": "Edge"
+  }
+}
