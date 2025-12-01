@@ -1,0 +1,26 @@
+{
+  "id": "ibm-thinkpad-701c-windows-95-v74",
+  "metadata": {
+    "make": "IBM",
+    "model": "ThinkPad 701C",
+    "year": 1995,
+    "os_target": "Windows 95",
+    "form_factor": "Laptop"
+  },
+  "hardware": {
+    "cpu_cores": 1,
+    "cpu_name": "Intel 486DX4",
+    "ram_mb": 4,
+    "storage_gb": 0.36,
+    "gpu_name": "Chips & Technologies 65535",
+    "gpu_vram_mb": 1,
+    "screen_resolution": "640x480"
+  },
+  "environment": {
+    "accessibility_mode": "Standard",
+    "boot_mode": "Normal"
+  },
+  "software": {
+    "primary_browser": "Firefox"
+  }
+}

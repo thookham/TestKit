@@ -1,0 +1,26 @@
+{
+  "id": "raspberry-pi-4-model-b-windows-11-v169",
+  "metadata": {
+    "make": "Raspberry Pi",
+    "model": "4 Model B",
+    "year": 2019,
+    "os_target": "Windows 11",
+    "form_factor": "SBC"
+  },
+  "hardware": {
+    "cpu_cores": 4,
+    "cpu_name": "Broadcom BCM2711",
+    "ram_mb": 4096,
+    "storage_gb": 128,
+    "gpu_name": "VideoCore VI",
+    "gpu_vram_mb": 0,
+    "screen_resolution": "1920x1080"
+  },
+  "environment": {
+    "accessibility_mode": "Standard",
+    "boot_mode": "Normal"
+  },
+  "software": {
+    "primary_browser": "Chrome"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "fujitsu-lifebook-p1610-windows-xp-v26",
+  "metadata": {
+    "make": "Fujitsu",
+    "model": "Lifebook P1610",
+    "year": 2006,
+    "os_target": "Windows XP",
+    "form_factor": "Convertible"
+  },
+  "hardware": {
+    "cpu_cores": 1,
+    "cpu_name": "Intel Core Solo U1400",
+    "ram_mb": 1024,
+    "storage_gb": 30,
+    "gpu_name": "Intel GMA 950",
+    "gpu_vram_mb": 0,
+    "screen_resolution": "1280x768"
+  },
+  "environment": {
+    "accessibility_mode": "Standard",
+    "boot_mode": "Normal"
+  },
+  "software": {
+    "primary_browser": "Firefox"
+  }
+}

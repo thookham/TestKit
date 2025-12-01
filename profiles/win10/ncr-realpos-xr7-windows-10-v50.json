@@ -1,0 +1,26 @@
+{
+  "id": "ncr-realpos-xr7-windows-10-v50",
+  "metadata": {
+    "make": "NCR",
+    "model": "RealPOS XR7",
+    "year": 2019,
+    "os_target": "Windows 10",
+    "form_factor": "All-in-One"
+  },
+  "hardware": {
+    "cpu_cores": 2,
+    "cpu_name": "Intel Core i3-4330TE",
+    "ram_mb": 16384,
+    "storage_gb": 120,
+    "gpu_name": "Intel HD Graphics 4600",
+    "gpu_vram_mb": 0,
+    "screen_resolution": "1024x768"
+  },
+  "environment": {
+    "accessibility_mode": "Standard",
+    "boot_mode": "Normal"
+  },
+  "software": {
+    "primary_browser": "Firefox"
+  }
+}

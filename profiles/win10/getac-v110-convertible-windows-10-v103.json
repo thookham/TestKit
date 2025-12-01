@@ -1,0 +1,26 @@
+{
+  "id": "getac-v110-convertible-windows-10-v103",
+  "metadata": {
+    "make": "Getac",
+    "model": "V110 Convertible",
+    "year": 2021,
+    "os_target": "Windows 10",
+    "form_factor": "2-in-1"
+  },
+  "hardware": {
+    "cpu_cores": 4,
+    "cpu_name": "Intel Core i7-10510U",
+    "ram_mb": 32768,
+    "storage_gb": 1000,
+    "gpu_name": "Intel UHD Graphics",
+    "gpu_vram_mb": 0,
+    "screen_resolution": "1920x1080"
+  },
+  "environment": {
+    "accessibility_mode": "Standard",
+    "boot_mode": "Normal"
+  },
+  "software": {
+    "primary_browser": "Chrome"
+  }
+}

@@ -3,14 +3,14 @@
 ![TestKit Banner](docs/images/banner.png)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Profiles](https://img.shields.io/badge/Profiles-20%2C446-brightgreen)](profiles/)
-[![Hardware Models](https://img.shields.io/badge/Hardware-65%20Models-orange)](scripts/db/laptops.json)
+[![Profiles](https://img.shields.io/badge/Profiles-22%2C122-brightgreen)](profiles/)
+[![Hardware Models](https://img.shields.io/badge/Hardware-80%20Models-orange)](scripts/db/laptops.json)
 [![Python](https://img.shields.io/badge/Python-3.7%2B-blue)](https://www.python.org/)
 
-**TestKit** is a comprehensive, industry-leading repository of hardware profiles specifically designed for testing and debugging Windows applications across diverse device configurations. With **20,446+ unique profiles** spanning Windows XP through Windows 11, TestKit provides standardized hardware definitions that can be exported to Docker, Vagrant, Terraform, and Windows Sandbox.
+**TestKit** is a comprehensive, industry-leading repository of hardware profiles specifically designed for testing and debugging Windows applications across diverse device configurations. With **22,122+ unique profiles** spanning Windows 95 through Windows 11, TestKit provides standardized hardware definitions that can be exported to Docker, Vagrant, Terraform, and Windows Sandbox.
 
 > [!NOTE]
-> **What's New in v1.2.0**: Added 20 Tier 2/Regional manufacturer profiles (Framework, System76, Medion, Clevo, etc.) and automated **launch scripts** for all exports.
+> **What's New in v1.3.0**: Added 15 Tier 3/Specialized manufacturer profiles (Industrial, Medical, POS, Legacy, SBC) and expanded total coverage to **80 base models**.
 
 ---
 
@@ -394,12 +394,12 @@ A: Yes! TestKit is MIT licensed, allowing commercial use. See [LICENSE](LICENSE)
 
 ## 📊 **Statistics**
 
-- **Hardware Models**: 65 base configurations
-- **Generated Profiles**: 20,446 unique combinations
-- **Supported OS Versions**: 10+ Windows versions
+- **Hardware Models**: 80 base configurations
+- **Generated Profiles**: 22,122 unique combinations
+- **Supported OS Versions**: 12+ Windows versions (including Win95/XP)
 - **Export Formats**: 4 (Docker, Vagrant, Terraform, Windows Sandbox)
-- **Form Factors**: 12+ (laptops, desktops, handhelds, servers, cloud VMs, rugged)
-- **Manufacturers**: 35+ global brands
+- **Form Factors**: 15+ (laptops, desktops, handhelds, servers, cloud VMs, rugged, POS, medical, SBC)
+- **Manufacturers**: 45+ global brands
 
 ---
 

@@ -1,0 +1,26 @@
+{
+  "id": "onyx-venus-223-windows-10-v98",
+  "metadata": {
+    "make": "Onyx",
+    "model": "Venus-223",
+    "year": 2021,
+    "os_target": "Windows 10",
+    "form_factor": "Medical Cart"
+  },
+  "hardware": {
+    "cpu_cores": 2,
+    "cpu_name": "Intel Core i7-6600U",
+    "ram_mb": 16384,
+    "storage_gb": 256,
+    "gpu_name": "Intel HD Graphics 520",
+    "gpu_vram_mb": 0,
+    "screen_resolution": "1920x1080"
+  },
+  "environment": {
+    "accessibility_mode": "Standard",
+    "boot_mode": "Normal"
+  },
+  "software": {
+    "primary_browser": "Firefox"
+  }
+}

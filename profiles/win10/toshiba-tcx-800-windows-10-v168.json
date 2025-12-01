@@ -1,0 +1,26 @@
+{
+  "id": "toshiba-tcx-800-windows-10-v168",
+  "metadata": {
+    "make": "Toshiba",
+    "model": "TCx 800",
+    "year": 2020,
+    "os_target": "Windows 10",
+    "form_factor": "All-in-One"
+  },
+  "hardware": {
+    "cpu_cores": 2,
+    "cpu_name": "Intel Celeron 3965U",
+    "ram_mb": 8192,
+    "storage_gb": 256,
+    "gpu_name": "Intel HD Graphics 620",
+    "gpu_vram_mb": 0,
+    "screen_resolution": "1024x768"
+  },
+  "environment": {
+    "accessibility_mode": "High Contrast",
+    "boot_mode": "Normal"
+  },
+  "software": {
+    "primary_browser": "Edge"
+  }
+}

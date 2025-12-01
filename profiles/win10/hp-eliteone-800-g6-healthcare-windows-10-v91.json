@@ -1,0 +1,26 @@
+{
+  "id": "hp-eliteone-800-g6-healthcare-windows-10-v91",
+  "metadata": {
+    "make": "HP",
+    "model": "EliteOne 800 G6 Healthcare",
+    "year": 2020,
+    "os_target": "Windows 10",
+    "form_factor": "All-in-One"
+  },
+  "hardware": {
+    "cpu_cores": 8,
+    "cpu_name": "Intel Core i7-10700",
+    "ram_mb": 32768,
+    "storage_gb": 256,
+    "gpu_name": "Intel UHD Graphics 630",
+    "gpu_vram_mb": 0,
+    "screen_resolution": "1920x1080"
+  },
+  "environment": {
+    "accessibility_mode": "Standard",
+    "boot_mode": "Normal"
+  },
+  "software": {
+    "primary_browser": "Chrome"
+  }
+}

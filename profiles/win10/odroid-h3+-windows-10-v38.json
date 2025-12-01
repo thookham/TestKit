@@ -1,0 +1,26 @@
+{
+  "id": "odroid-h3+-windows-10-v38",
+  "metadata": {
+    "make": "Odroid",
+    "model": "H3+",
+    "year": 2022,
+    "os_target": "Windows 10",
+    "form_factor": "SBC"
+  },
+  "hardware": {
+    "cpu_cores": 4,
+    "cpu_name": "Intel Pentium N6005",
+    "ram_mb": 32768,
+    "storage_gb": 64,
+    "gpu_name": "Intel UHD Graphics",
+    "gpu_vram_mb": 0,
+    "screen_resolution": "1920x1080"
+  },
+  "environment": {
+    "accessibility_mode": "Standard",
+    "boot_mode": "Normal"
+  },
+  "software": {
+    "primary_browser": "Firefox"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "oqo-model-02-windows-vista-v33",
+  "metadata": {
+    "make": "OQO",
+    "model": "Model 02",
+    "year": 2007,
+    "os_target": "Windows Vista",
+    "form_factor": "Handheld"
+  },
+  "hardware": {
+    "cpu_cores": 1,
+    "cpu_name": "VIA C7-M",
+    "ram_mb": 512,
+    "storage_gb": 30,
+    "gpu_name": "VIA VX700",
+    "gpu_vram_mb": 0,
+    "screen_resolution": "800x480"
+  },
+  "environment": {
+    "accessibility_mode": "Standard",
+    "boot_mode": "Normal"
+  },
+  "software": {
+    "primary_browser": "Chrome"
+  }
+}

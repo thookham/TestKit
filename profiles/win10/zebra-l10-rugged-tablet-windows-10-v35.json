@@ -1,0 +1,26 @@
+{
+  "id": "zebra-l10-rugged-tablet-windows-10-v35",
+  "metadata": {
+    "make": "Zebra",
+    "model": "L10 Rugged Tablet",
+    "year": 2020,
+    "os_target": "Windows 10",
+    "form_factor": "Tablet"
+  },
+  "hardware": {
+    "cpu_cores": 4,
+    "cpu_name": "Intel Core i5-8250U",
+    "ram_mb": 8192,
+    "storage_gb": 512,
+    "gpu_name": "Intel UHD Graphics 620",
+    "gpu_vram_mb": 0,
+    "screen_resolution": "1920x1200"
+  },
+  "environment": {
+    "accessibility_mode": "High Contrast",
+    "boot_mode": "Normal"
+  },
+  "software": {
+    "primary_browser": "Firefox"
+  }
+}

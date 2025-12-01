@@ -6,11 +6,11 @@ Complete catalog of all 45 base hardware models in TestKit's database.
 
 ## 📊 **Quick Statistics**
 
-- **Total Base Models**: 65
-- **Manufacturers**: 35+
-- **Form Factors**: 12
-- **OS Support Range**: Windows XP → Windows 11
-- **Generated Profiles**: 20,446
+- **Total Base Models**: 80
+- **Manufacturers**: 45+
+- **Form Factors**: 15
+- **OS Support Range**: Windows 95 → Windows 11
+- **Generated Profiles**: 22,122
 
 ---
 
@@ -26,8 +26,12 @@ Complete catalog of all 45 base hardware models in TestKit's database.
 - [Servers](#servers) (2 models)
 - [Cloud VMs](#cloud-vms) (2 models)
 - [Mini PCs](#mini-pcs) (4 models)
-- [Rugged & Specialized](#rugged--specialized) (11 models) 🆕
-- [Regional / Budget](#regional--budget) (7 models) 🆕
+- [Rugged & Specialized](#rugged--specialized) (14 models)
+- [Regional / Budget](#regional--budget) (7 models)
+- [Point of Sale (POS)](#point-of-sale-pos) (3 models) 🆕
+- [Medical Devices](#medical-devices) (3 models) 🆕
+- [Legacy / Obscure](#legacy--obscure) (4 models) 🆕
+- [Single Board Computers](#single-board-computers) (2 models) 🆕
 
 ---
 
@@ -240,12 +244,141 @@ Popular devices in specific markets.
 - **OS**: Windows 10, Windows 11
 - **Profiles**: 48
 
-### Pine64 Pinebook Pro (2019) 🆕
+### Pine64 Pinebook Pro (2019)
 - **CPU**: Rockchip RK3399 (ARM)
 - **RAM**: 4 GB
 - **GPU**: Mali-T860
 - **OS**: Windows 10 (WoA)
 - **Profiles**: 2
+
+### Zebra L10 Rugged Tablet (2020) 🆕
+- **CPU**: Intel Core i5-8250U, Pentium N4200
+- **RAM**: 4-16 GB
+- **GPU**: Intel UHD 620
+- **OS**: Windows 10
+- **Profiles**: 18
+
+### Honeywell RT10 (2020) 🆕
+- **CPU**: Intel Pentium N4200
+- **RAM**: 8 GB
+- **GPU**: Intel HD 505
+- **OS**: Windows 10
+- **Profiles**: 1
+
+### Getac V110 (2021) 🆕
+- **CPU**: Intel Core i5/i7 (10th Gen)
+- **RAM**: 8-32 GB
+- **GPU**: Intel UHD
+- **OS**: Windows 10, Windows 11
+- **Profiles**: 36
+
+---
+
+## Point of Sale (POS)
+
+Retail and hospitality terminals.
+
+### NCR RealPOS XR7 (2019) 🆕
+- **CPU**: Intel Core i3/i5 (Haswell TE)
+- **RAM**: 4-16 GB
+- **GPU**: Intel HD 4600
+- **OS**: Windows 10
+- **Profiles**: 12
+
+### Oracle Micros Workstation 6 (2018) 🆕
+- **CPU**: Intel Atom E3827
+- **RAM**: 4 GB
+- **GPU**: Intel HD
+- **OS**: Windows 10
+- **Profiles**: 1
+
+### Toshiba TCx 800 (2020) 🆕
+- **CPU**: Intel Core i5-7300U, Celeron 3965U
+- **RAM**: 4-16 GB
+- **GPU**: Intel HD 620
+- **OS**: Windows 10
+- **Profiles**: 12
+
+---
+
+## Medical Devices
+
+Healthcare-specific hardware.
+
+### HP EliteOne 800 G6 Healthcare (2020) 🆕
+- **CPU**: Intel Core i5/i7 (10th Gen)
+- **RAM**: 8-32 GB
+- **GPU**: Intel UHD 630
+- **OS**: Windows 10
+- **Profiles**: 12
+
+### Dell Latitude 7220 Rugged Extreme (2019) 🆕
+- **CPU**: Intel Core i5/i7 (8th Gen vPro)
+- **RAM**: 8-16 GB
+- **GPU**: Intel UHD 620
+- **OS**: Windows 10
+- **Profiles**: 12
+
+### Onyx Venus-223 (2021) 🆕
+- **CPU**: Intel Core i5/i7 (6th Gen)
+- **RAM**: 4-16 GB
+- **GPU**: Intel HD 520
+- **OS**: Windows 10
+- **Profiles**: 18
+
+---
+
+## Legacy / Obscure
+
+Historical and unique form factors.
+
+### Sony Vaio P Series (2009) 🆕
+- **CPU**: Intel Atom Z520/Z540
+- **RAM**: 2 GB
+- **GPU**: Intel GMA 500
+- **OS**: Windows Vista, Windows 7
+- **Profiles**: 4
+
+### OQO Model 02 (2007) 🆕
+- **CPU**: VIA C7-M
+- **RAM**: 512 MB - 1 GB
+- **GPU**: VIA VX700
+- **OS**: Windows XP, Windows Vista
+- **Profiles**: 4
+
+### Fujitsu Lifebook P1610 (2006) 🆕
+- **CPU**: Intel Core Solo U1400
+- **RAM**: 512 MB - 1 GB
+- **GPU**: Intel GMA 950
+- **OS**: Windows XP, Windows Vista
+- **Profiles**: 6
+
+### IBM ThinkPad 701C (1995) 🆕
+- **CPU**: Intel 486DX2/DX4
+- **RAM**: 4-32 MB
+- **GPU**: Chips & Technologies 65535 (1MB)
+- **OS**: Windows 95
+- **Profiles**: 6
+
+---
+
+## Single Board Computers
+
+x86 and ARM SBCs running Windows.
+
+### Raspberry Pi 4 Model B (2019) 🆕
+- **CPU**: Broadcom BCM2711 (ARM)
+- **RAM**: 2-8 GB
+- **GPU**: VideoCore VI
+- **OS**: Windows 10, Windows 11 (WoA)
+- **Profiles**: 18
+
+### Odroid H3+ (2022) 🆕
+- **CPU**: Intel Pentium N6005
+- **RAM**: 8-32 GB
+- **GPU**: Intel UHD
+- **OS**: Windows 10, Windows 11
+- **Profiles**: 18
 
 ---
 

@@ -2429,5 +2429,545 @@
         "resolution_options": [
             "1920x1080"
         ]
+    },
+    {
+        "make": "Zebra",
+        "model": "L10 Rugged Tablet",
+        "year": 2020,
+        "form_factor": "Tablet",
+        "supported_os": [
+            "Windows 10"
+        ],
+        "cpu_options": [
+            {
+                "name": "Intel Core i5-8250U",
+                "cores": 4
+            },
+            {
+                "name": "Intel Pentium N4200",
+                "cores": 4
+            }
+        ],
+        "ram_options": [
+            4096,
+            8192,
+            16384
+        ],
+        "storage_options": [
+            128,
+            256,
+            512
+        ],
+        "gpu_options": [
+            {
+                "name": "Intel UHD Graphics 620",
+                "vram": 0
+            }
+        ],
+        "resolution_options": [
+            "1920x1200"
+        ]
+    },
+    {
+        "make": "Honeywell",
+        "model": "RT10 Industrial Tablet",
+        "year": 2020,
+        "form_factor": "Tablet",
+        "supported_os": [
+            "Windows 10"
+        ],
+        "cpu_options": [
+            {
+                "name": "Intel Pentium N4200",
+                "cores": 4
+            }
+        ],
+        "ram_options": [
+            8192
+        ],
+        "storage_options": [
+            128
+        ],
+        "gpu_options": [
+            {
+                "name": "Intel HD Graphics 505",
+                "vram": 0
+            }
+        ],
+        "resolution_options": [
+            "1920x1200"
+        ]
+    },
+    {
+        "make": "Getac",
+        "model": "V110 Convertible",
+        "year": 2021,
+        "form_factor": "2-in-1",
+        "supported_os": [
+            "Windows 10",
+            "Windows 11"
+        ],
+        "cpu_options": [
+            {
+                "name": "Intel Core i5-10210U",
+                "cores": 4
+            },
+            {
+                "name": "Intel Core i7-10510U",
+                "cores": 4
+            }
+        ],
+        "ram_options": [
+            8192,
+            16384,
+            32768
+        ],
+        "storage_options": [
+            256,
+            512,
+            1000
+        ],
+        "gpu_options": [
+            {
+                "name": "Intel UHD Graphics",
+                "vram": 0
+            }
+        ],
+        "resolution_options": [
+            "1920x1080"
+        ]
+    },
+    {
+        "make": "NCR",
+        "model": "RealPOS XR7",
+        "year": 2019,
+        "form_factor": "All-in-One",
+        "supported_os": [
+            "Windows 10"
+        ],
+        "cpu_options": [
+            {
+                "name": "Intel Core i3-4330TE",
+                "cores": 2
+            },
+            {
+                "name": "Intel Core i5-4570TE",
+                "cores": 2
+            }
+        ],
+        "ram_options": [
+            4096,
+            8192,
+            16384
+        ],
+        "storage_options": [
+            120,
+            240
+        ],
+        "gpu_options": [
+            {
+                "name": "Intel HD Graphics 4600",
+                "vram": 0
+            }
+        ],
+        "resolution_options": [
+            "1024x768",
+            "1366x768"
+        ]
+    },
+    {
+        "make": "Oracle",
+        "model": "Micros Workstation 6",
+        "year": 2018,
+        "form_factor": "All-in-One",
+        "supported_os": [
+            "Windows 10"
+        ],
+        "cpu_options": [
+            {
+                "name": "Intel Atom E3827",
+                "cores": 2
+            }
+        ],
+        "ram_options": [
+            4096
+        ],
+        "storage_options": [
+            64
+        ],
+        "gpu_options": [
+            {
+                "name": "Intel HD Graphics",
+                "vram": 0
+            }
+        ],
+        "resolution_options": [
+            "1920x1080"
+        ]
+    },
+    {
+        "make": "Toshiba",
+        "model": "TCx 800",
+        "year": 2020,
+        "form_factor": "All-in-One",
+        "supported_os": [
+            "Windows 10"
+        ],
+        "cpu_options": [
+            {
+                "name": "Intel Core i5-7300U",
+                "cores": 2
+            },
+            {
+                "name": "Intel Celeron 3965U",
+                "cores": 2
+            }
+        ],
+        "ram_options": [
+            4096,
+            8192,
+            16384
+        ],
+        "storage_options": [
+            128,
+            256
+        ],
+        "gpu_options": [
+            {
+                "name": "Intel HD Graphics 620",
+                "vram": 0
+            }
+        ],
+        "resolution_options": [
+            "1024x768",
+            "1366x768",
+            "1920x1080"
+        ]
+    },
+    {
+        "make": "HP",
+        "model": "EliteOne 800 G6 Healthcare",
+        "year": 2020,
+        "form_factor": "All-in-One",
+        "supported_os": [
+            "Windows 10"
+        ],
+        "cpu_options": [
+            {
+                "name": "Intel Core i5-10500",
+                "cores": 6
+            },
+            {
+                "name": "Intel Core i7-10700",
+                "cores": 8
+            }
+        ],
+        "ram_options": [
+            8192,
+            16384,
+            32768
+        ],
+        "storage_options": [
+            256,
+            512,
+            1000
+        ],
+        "gpu_options": [
+            {
+                "name": "Intel UHD Graphics 630",
+                "vram": 0
+            }
+        ],
+        "resolution_options": [
+            "1920x1080"
+        ]
+    },
+    {
+        "make": "Dell",
+        "model": "Latitude 7220 Rugged Extreme",
+        "year": 2019,
+        "form_factor": "Tablet",
+        "supported_os": [
+            "Windows 10"
+        ],
+        "cpu_options": [
+            {
+                "name": "Intel Core i5-8365U",
+                "cores": 4
+            },
+            {
+                "name": "Intel Core i7-8665U",
+                "cores": 4
+            }
+        ],
+        "ram_options": [
+            8192,
+            16384
+        ],
+        "storage_options": [
+            256,
+            512,
+            1000
+        ],
+        "gpu_options": [
+            {
+                "name": "Intel UHD Graphics 620",
+                "vram": 0
+            }
+        ],
+        "resolution_options": [
+            "1920x1080"
+        ]
+    },
+    {
+        "make": "Onyx",
+        "model": "Venus-223",
+        "year": 2021,
+        "form_factor": "Medical Cart",
+        "supported_os": [
+            "Windows 10"
+        ],
+        "cpu_options": [
+            {
+                "name": "Intel Core i5-6300U",
+                "cores": 2
+            },
+            {
+                "name": "Intel Core i7-6600U",
+                "cores": 2
+            }
+        ],
+        "ram_options": [
+            4096,
+            8192,
+            16384
+        ],
+        "storage_options": [
+            128,
+            256,
+            512
+        ],
+        "gpu_options": [
+            {
+                "name": "Intel HD Graphics 520",
+                "vram": 0
+            }
+        ],
+        "resolution_options": [
+            "1920x1080"
+        ]
+    },
+    {
+        "make": "Sony",
+        "model": "Vaio P Series",
+        "year": 2009,
+        "form_factor": "Netbook",
+        "supported_os": [
+            "Windows Vista",
+            "Windows 7"
+        ],
+        "cpu_options": [
+            {
+                "name": "Intel Atom Z520",
+                "cores": 1
+            },
+            {
+                "name": "Intel Atom Z540",
+                "cores": 1
+            }
+        ],
+        "ram_options": [
+            2048
+        ],
+        "storage_options": [
+            64,
+            128
+        ],
+        "gpu_options": [
+            {
+                "name": "Intel GMA 500",
+                "vram": 0
+            }
+        ],
+        "resolution_options": [
+            "1600x768"
+        ]
+    },
+    {
+        "make": "OQO",
+        "model": "Model 02",
+        "year": 2007,
+        "form_factor": "Handheld",
+        "supported_os": [
+            "Windows XP",
+            "Windows Vista"
+        ],
+        "cpu_options": [
+            {
+                "name": "VIA C7-M",
+                "cores": 1
+            }
+        ],
+        "ram_options": [
+            512,
+            1024
+        ],
+        "storage_options": [
+            30,
+            60
+        ],
+        "gpu_options": [
+            {
+                "name": "VIA VX700",
+                "vram": 0
+            }
+        ],
+        "resolution_options": [
+            "800x480"
+        ]
+    },
+    {
+        "make": "Fujitsu",
+        "model": "Lifebook P1610",
+        "year": 2006,
+        "form_factor": "Convertible",
+        "supported_os": [
+            "Windows XP",
+            "Windows Vista"
+        ],
+        "cpu_options": [
+            {
+                "name": "Intel Core Solo U1400",
+                "cores": 1
+            }
+        ],
+        "ram_options": [
+            512,
+            1024
+        ],
+        "storage_options": [
+            30,
+            60,
+            80
+        ],
+        "gpu_options": [
+            {
+                "name": "Intel GMA 950",
+                "vram": 0
+            }
+        ],
+        "resolution_options": [
+            "1280x768"
+        ]
+    },
+    {
+        "make": "IBM",
+        "model": "ThinkPad 701C",
+        "year": 1995,
+        "form_factor": "Laptop",
+        "supported_os": [
+            "Windows 95"
+        ],
+        "cpu_options": [
+            {
+                "name": "Intel 486DX2",
+                "cores": 1
+            },
+            {
+                "name": "Intel 486DX4",
+                "cores": 1
+            }
+        ],
+        "ram_options": [
+            4,
+            8,
+            16,
+            32
+        ],
+        "storage_options": [
+            0.36,
+            0.54,
+            0.72
+        ],
+        "gpu_options": [
+            {
+                "name": "Chips & Technologies 65535",
+                "vram": 1
+            }
+        ],
+        "resolution_options": [
+            "640x480"
+        ]
+    },
+    {
+        "make": "Raspberry Pi",
+        "model": "4 Model B",
+        "year": 2019,
+        "form_factor": "SBC",
+        "supported_os": [
+            "Windows 10",
+            "Windows 11"
+        ],
+        "cpu_options": [
+            {
+                "name": "Broadcom BCM2711",
+                "cores": 4
+            }
+        ],
+        "ram_options": [
+            2048,
+            4096,
+            8192
+        ],
+        "storage_options": [
+            32,
+            64,
+            128
+        ],
+        "gpu_options": [
+            {
+                "name": "VideoCore VI",
+                "vram": 0
+            }
+        ],
+        "resolution_options": [
+            "1920x1080",
+            "3840x2160"
+        ]
+    },
+    {
+        "make": "Odroid",
+        "model": "H3+",
+        "year": 2022,
+        "form_factor": "SBC",
+        "supported_os": [
+            "Windows 10",
+            "Windows 11"
+        ],
+        "cpu_options": [
+            {
+                "name": "Intel Pentium N6005",
+                "cores": 4
+            }
+        ],
+        "ram_options": [
+            8192,
+            16384,
+            32768
+        ],
+        "storage_options": [
+            64,
+            128,
+            256
+        ],
+        "gpu_options": [
+            {
+                "name": "Intel UHD Graphics",
+                "vram": 0
+            }
+        ],
+        "resolution_options": [
+            "1920x1080"
+        ]
     }
 ]

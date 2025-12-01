@@ -5,6 +5,21 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.3.0] - 2024-12-01
+
+### Added
+- **Tier 3 / Specialized Hardware**: Added 15 new profiles for edge cases and industrial use:
+  - **Industrial/Rugged**: Zebra L10, Honeywell RT10, Getac V110
+  - **Point of Sale (POS)**: NCR RealPOS XR7, Oracle Micros Workstation 6, Toshiba TCx 800
+  - **Medical**: HP EliteOne Healthcare, Dell Latitude Rugged Extreme, Onyx Venus
+  - **Legacy/Obscure**: Sony Vaio P, OQO Model 02, Fujitsu P1610, IBM ThinkPad 701C
+  - **SBC**: Raspberry Pi 4 (WoA), Odroid H3+
+- **Profile Expansion**: Total hardware definitions increased to **80** models.
+- **Generated Profiles**: Total count reached **22,122** (+8%).
+
+### Changed
+- Updated documentation with new categories and statistics.
+
 ## [1.2.0] - 2024-12-01
 
 ### Added
