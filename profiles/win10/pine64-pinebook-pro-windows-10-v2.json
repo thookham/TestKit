@@ -1,0 +1,26 @@
+{
+  "id": "pine64-pinebook-pro-windows-10-v2",
+  "metadata": {
+    "make": "Pine64",
+    "model": "Pinebook Pro",
+    "year": 2019,
+    "os_target": "Windows 10",
+    "form_factor": "Laptop"
+  },
+  "hardware": {
+    "cpu_cores": 6,
+    "cpu_name": "Rockchip RK3399",
+    "ram_mb": 4096,
+    "storage_gb": 64,
+    "gpu_name": "Mali-T860 MP4",
+    "gpu_vram_mb": 0,
+    "screen_resolution": "1920x1080"
+  },
+  "environment": {
+    "accessibility_mode": "Standard",
+    "boot_mode": "Normal"
+  },
+  "software": {
+    "primary_browser": "Firefox"
+  }
+}

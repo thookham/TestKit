@@ -5,6 +5,21 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.2.0] - 2024-12-01
+
+### Added
+- **Tier 2 / Regional Manufacturers**: Added 20 new hardware profiles from diverse global manufacturers:
+  - **Europe/Boutique**: Framework, System76, Schenker (XMG), Medion, Tuxedo, Purism, Slimbook
+  - **Asia/Regional**: Fujitsu, Vaio, Dynabook (Toshiba), Chuwi, Teclast, Infinix, Tecno
+  - **Specialized/OEM**: Clevo, Tongfang, Getac, Durabook, Panasonic, Pine64
+- **Automated Launch Scripts**: `export.py` now generates `launch.ps1` and `launch.sh` for all exports, enabling one-click environment startup.
+- **Profile Expansion**: Total hardware definitions increased to **65** models.
+- **Generated Profiles**: Total count reached **20,446** (+21%).
+
+### Changed
+- Updated `export.py` to include launch script generation logic.
+- Updated documentation to reflect new hardware and features.
+
 ## [1.1.0] - 2024-11-30
 
 ### Added

@@ -1,0 +1,26 @@
+{
+  "id": "system76-gazelle-windows-10-v238",
+  "metadata": {
+    "make": "System76",
+    "model": "Gazelle",
+    "year": 2023,
+    "os_target": "Windows 10",
+    "form_factor": "Laptop"
+  },
+  "hardware": {
+    "cpu_cores": 14,
+    "cpu_name": "Intel Core i9-13900H",
+    "ram_mb": 65536,
+    "storage_gb": 4000,
+    "gpu_name": "NVIDIA GeForce RTX 4060",
+    "gpu_vram_mb": 8192,
+    "screen_resolution": "1920x1080"
+  },
+  "environment": {
+    "accessibility_mode": "High Contrast",
+    "boot_mode": "Normal"
+  },
+  "software": {
+    "primary_browser": "Chrome"
+  }
+}

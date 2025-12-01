@@ -3,14 +3,14 @@
 ![TestKit Banner](docs/images/banner.png)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Profiles](https://img.shields.io/badge/Profiles-16%2C912-brightgreen)](profiles/)
-[![Hardware Models](https://img.shields.io/badge/Hardware-45%20Models-orange)](scripts/db/laptops.json)
+[![Profiles](https://img.shields.io/badge/Profiles-20%2C446-brightgreen)](profiles/)
+[![Hardware Models](https://img.shields.io/badge/Hardware-65%20Models-orange)](scripts/db/laptops.json)
 [![Python](https://img.shields.io/badge/Python-3.7%2B-blue)](https://www.python.org/)
 
-**TestKit** is a comprehensive, industry-leading repository of hardware profiles specifically designed for testing and debugging Windows applications across diverse device configurations. With **16,912+ unique profiles** spanning Windows XP through Windows 11, TestKit provides standardized hardware definitions that can be exported to Docker, Vagrant, Terraform, and Windows Sandbox.
+**TestKit** is a comprehensive, industry-leading repository of hardware profiles specifically designed for testing and debugging Windows applications across diverse device configurations. With **20,446+ unique profiles** spanning Windows XP through Windows 11, TestKit provides standardized hardware definitions that can be exported to Docker, Vagrant, Terraform, and Windows Sandbox.
 
 > [!NOTE]
-> **What's New in v1.1.0**: Added 11 Tier 1 manufacturer profiles (Acer, MSI, Gigabyte, System76, Toshiba), expanding from 34 to 45 base hardware models and increasing total profiles by **38%** (from 12,254 to 16,912).
+> **What's New in v1.2.0**: Added 20 Tier 2/Regional manufacturer profiles (Framework, System76, Medion, Clevo, etc.) and automated **launch scripts** for all exports.
 
 ---
 
@@ -37,19 +37,6 @@ Modern software must work across an enormous range of hardware configurations. T
 ---
 
 ## 📊 **Profile Coverage**
-
-### Hardware Categories (45 Base Models)
-
-| Category | Manufacturers | Example Models | Profiles |\r
-|----------|---------------|----------------|----------|\r
-| **Standard Laptops** | Lenovo, Dell, HP, Acer | ThinkPad T480, XPS 13, EliteBook, Swift 3 | 3,200+ |\r
-| **Tier 1 Gaming** | Acer, MSI, Gigabyte, Razer, Alienware | Predator Helios, GS66 Stealth, Aero 15 OLED | 2,400+ |\r
-| **Netbooks** | Asus | Eee PC 1000HE | 80+ |\r
-| **Tablets/2-in-1** | Microsoft | Surface Pro 3, Surface Pro X (ARM) | 450+ |\r
-| **Workstations** | Dell, MSI | Precision M4800, Creator Z16 | 800+ |\r
-| **Handhelds** | Valve, Asus, Lenovo, GPD | Steam Deck, ROG Ally, Legion Go | 2,100+ |\r
-| **Mini PCs** | Intel, Apple | NUC 11/12, Mac Mini | 1,200+ |\r
-| **Rugged** | Panasonic, Dell | Toughbook, Latitude Rugged | 450+ |\r
 | **Servers** | Dell, HP | PowerEdge R740, ProLiant DL380 | 850+ |\r
 | **Desktops** | System76, Dell, HP | Thelio, Dimension, Compaq | 1,100+ |\r
 | **Cloud VMs** | AWS, Azure | EC2 t2.micro, Standard_D2s_v3 | 120+ |\r
@@ -90,6 +77,9 @@ python scripts/export.py \
   --profile "profiles/win11/acer-aspire-vero-windows-11-v1.json" \
   --format docker \
   --output exports
+
+# Run the generated launch script
+./exports/launch.ps1  # or ./exports/launch.sh
 ```
 
 #### Vagrant (VirtualBox)
@@ -404,12 +394,12 @@ A: Yes! TestKit is MIT licensed, allowing commercial use. See [LICENSE](LICENSE)
 
 ## 📊 **Statistics**
 
-- **Hardware Models**: 45 base configurations
-- **Generated Profiles**: 16,912 unique combinations
+- **Hardware Models**: 65 base configurations
+- **Generated Profiles**: 20,446 unique combinations
 - **Supported OS Versions**: 10+ Windows versions
 - **Export Formats**: 4 (Docker, Vagrant, Terraform, Windows Sandbox)
-- **Form Factors**: 10+ (laptops, desktops, handhelds, servers, cloud VMs)
-- **Manufacturers**: 20+ global brands
+- **Form Factors**: 12+ (laptops, desktops, handhelds, servers, cloud VMs, rugged)
+- **Manufacturers**: 35+ global brands
 
 ---
 

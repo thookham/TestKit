@@ -36,29 +36,9 @@ python scripts/generate_profiles.py [OPTIONS]
 Generates 16,912 JSON profile files in `profiles/` directory, organized by OS:
 - `profiles/win7/` - Windows 7 profiles
 - `profiles/win8/` - Windows 8/8.1 profiles
-- `prof iles/win10/` - Windows 10 profiles
+- `profiles/win10/` - Windows 10 profiles
 - `profiles/win11/` - Windows 11 profiles
 - `profiles/other/` - XP, Vista, Server editions
-
-### Example
-
-```bash
-# Generate all profiles
-python scripts/generate_profiles.py
-
-# Output:
-# Generated: lenovo-thinkpad-t420-windows-7-v1.json
-# Generated: lenovo-thinkpad-t420-windows-7-v2.json
-# ...
-# Total profiles generated: 16912
-```
-
-### Exit Codes
-
-| Code | Meaning |
-|------|---------|
-| 0 | Success |
-| 1 | Database file not found or invalid JSON |
 
 ---
 
@@ -70,6 +50,17 @@ Export hardware profile to specific format (Docker, Vagrant, Terraform, Windows 
 
 ```bash
 python scripts/export.py --profile PROFILE --format FORMAT --output OUTPUT
+```
+
+### Generated Launch Scripts 🆕
+
+For every export, `export.py` now generates helper scripts to immediately launch the environment:
+- `launch.ps1` (PowerShell)
+- `launch.sh` (Bash)
+
+**Usage:**
+```bash
+./exports/launch.ps1
 ```
 
 ### Required Arguments

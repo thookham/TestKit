@@ -1,0 +1,26 @@
+{
+  "id": "fujitsu-lifebook-u9311-windows-10-v43",
+  "metadata": {
+    "make": "Fujitsu",
+    "model": "Lifebook U9311",
+    "year": 2021,
+    "os_target": "Windows 10",
+    "form_factor": "Laptop"
+  },
+  "hardware": {
+    "cpu_cores": 4,
+    "cpu_name": "Intel Core i5-1135G7",
+    "ram_mb": 32768,
+    "storage_gb": 512,
+    "gpu_name": "Intel Iris Xe",
+    "gpu_vram_mb": 0,
+    "screen_resolution": "1920x1080"
+  },
+  "environment": {
+    "accessibility_mode": "Standard",
+    "boot_mode": "Normal"
+  },
+  "software": {
+    "primary_browser": "Chrome"
+  }
+}

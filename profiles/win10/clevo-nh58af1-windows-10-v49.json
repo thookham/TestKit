@@ -1,0 +1,26 @@
+{
+  "id": "clevo-nh58af1-windows-10-v49",
+  "metadata": {
+    "make": "Clevo",
+    "model": "NH58AF1",
+    "year": 2020,
+    "os_target": "Windows 10",
+    "form_factor": "Laptop"
+  },
+  "hardware": {
+    "cpu_cores": 12,
+    "cpu_name": "AMD Ryzen 9 3900",
+    "ram_mb": 65536,
+    "storage_gb": 2000,
+    "gpu_name": "NVIDIA GeForce RTX 2070",
+    "gpu_vram_mb": 8192,
+    "screen_resolution": "1920x1080"
+  },
+  "environment": {
+    "accessibility_mode": "Standard",
+    "boot_mode": "Normal"
+  },
+  "software": {
+    "primary_browser": "Chrome"
+  }
+}

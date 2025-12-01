@@ -1702,5 +1702,732 @@
         "resolution_options": [
             "1920x1080"
         ]
+    },
+    {
+        "make": "Framework",
+        "model": "Laptop 13 (Intel 13th Gen)",
+        "year": 2023,
+        "form_factor": "Laptop",
+        "supported_os": [
+            "Windows 11"
+        ],
+        "cpu_options": [
+            {
+                "name": "Intel Core i5-1340P",
+                "cores": 12
+            },
+            {
+                "name": "Intel Core i7-1360P",
+                "cores": 12
+            }
+        ],
+        "ram_options": [
+            8192,
+            16384,
+            32768,
+            65536
+        ],
+        "storage_options": [
+            256,
+            512,
+            1024,
+            2048,
+            4096
+        ],
+        "gpu_options": [
+            {
+                "name": "Intel Iris Xe",
+                "vram": 0
+            }
+        ],
+        "resolution_options": [
+            "2256x1504"
+        ]
+    },
+    {
+        "make": "System76",
+        "model": "Gazelle",
+        "year": 2023,
+        "form_factor": "Laptop",
+        "supported_os": [
+            "Windows 10",
+            "Windows 11"
+        ],
+        "cpu_options": [
+            {
+                "name": "Intel Core i9-13900H",
+                "cores": 14
+            }
+        ],
+        "ram_options": [
+            8192,
+            16384,
+            32768,
+            65536
+        ],
+        "storage_options": [
+            256,
+            500,
+            1000,
+            2000,
+            4000
+        ],
+        "gpu_options": [
+            {
+                "name": "NVIDIA GeForce RTX 4050",
+                "vram": 6144
+            },
+            {
+                "name": "NVIDIA GeForce RTX 4060",
+                "vram": 8192
+            }
+        ],
+        "resolution_options": [
+            "1920x1080"
+        ]
+    },
+    {
+        "make": "Schenker",
+        "model": "XMG Neo 15",
+        "year": 2021,
+        "form_factor": "Laptop",
+        "supported_os": [
+            "Windows 10",
+            "Windows 11"
+        ],
+        "cpu_options": [
+            {
+                "name": "AMD Ryzen 9 5900HX",
+                "cores": 8
+            }
+        ],
+        "ram_options": [
+            16384,
+            32768,
+            65536
+        ],
+        "storage_options": [
+            500,
+            1000,
+            2000
+        ],
+        "gpu_options": [
+            {
+                "name": "NVIDIA GeForce RTX 3080",
+                "vram": 16384
+            }
+        ],
+        "resolution_options": [
+            "2560x1440"
+        ]
+    },
+    {
+        "make": "Medion",
+        "model": "Erazer Beast X30",
+        "year": 2022,
+        "form_factor": "Laptop",
+        "supported_os": [
+            "Windows 11"
+        ],
+        "cpu_options": [
+            {
+                "name": "Intel Core i9-12900HK",
+                "cores": 14
+            }
+        ],
+        "ram_options": [
+            32768,
+            65536
+        ],
+        "storage_options": [
+            1000,
+            2000
+        ],
+        "gpu_options": [
+            {
+                "name": "NVIDIA GeForce RTX 3080 Ti",
+                "vram": 16384
+            }
+        ],
+        "resolution_options": [
+            "2560x1440"
+        ]
+    },
+    {
+        "make": "Tuxedo",
+        "model": "InfinityBook Pro 14",
+        "year": 2023,
+        "form_factor": "Laptop",
+        "supported_os": [
+            "Windows 11"
+        ],
+        "cpu_options": [
+            {
+                "name": "Intel Core i7-12700H",
+                "cores": 14
+            }
+        ],
+        "ram_options": [
+            16384,
+            32768,
+            65536
+        ],
+        "storage_options": [
+            250,
+            500,
+            1000,
+            2000
+        ],
+        "gpu_options": [
+            {
+                "name": "Intel Iris Xe",
+                "vram": 0
+            },
+            {
+                "name": "NVIDIA GeForce RTX 3050 Ti",
+                "vram": 4096
+            }
+        ],
+        "resolution_options": [
+            "2880x1800"
+        ]
+    },
+    {
+        "make": "Purism",
+        "model": "Librem 14",
+        "year": 2021,
+        "form_factor": "Laptop",
+        "supported_os": [
+            "Windows 10"
+        ],
+        "cpu_options": [
+            {
+                "name": "Intel Core i7-10710U",
+                "cores": 6
+            }
+        ],
+        "ram_options": [
+            8192,
+            16384,
+            32768,
+            65536
+        ],
+        "storage_options": [
+            250,
+            500,
+            1000,
+            2000
+        ],
+        "gpu_options": [
+            {
+                "name": "Intel UHD Graphics",
+                "vram": 0
+            }
+        ],
+        "resolution_options": [
+            "1920x1080"
+        ]
+    },
+    {
+        "make": "Slimbook",
+        "model": "Executive 14",
+        "year": 2022,
+        "form_factor": "Laptop",
+        "supported_os": [
+            "Windows 11"
+        ],
+        "cpu_options": [
+            {
+                "name": "Intel Core i7-12700H",
+                "cores": 14
+            }
+        ],
+        "ram_options": [
+            16384,
+            32768,
+            65536
+        ],
+        "storage_options": [
+            500,
+            1000,
+            2000
+        ],
+        "gpu_options": [
+            {
+                "name": "Intel Iris Xe",
+                "vram": 0
+            },
+            {
+                "name": "NVIDIA GeForce RTX 3050 Ti",
+                "vram": 4096
+            }
+        ],
+        "resolution_options": [
+            "2880x1800"
+        ]
+    },
+    {
+        "make": "Fujitsu",
+        "model": "Lifebook U9311",
+        "year": 2021,
+        "form_factor": "Laptop",
+        "supported_os": [
+            "Windows 10",
+            "Windows 11"
+        ],
+        "cpu_options": [
+            {
+                "name": "Intel Core i5-1135G7",
+                "cores": 4
+            },
+            {
+                "name": "Intel Core i7-1185G7",
+                "cores": 4
+            }
+        ],
+        "ram_options": [
+            8192,
+            16384,
+            32768
+        ],
+        "storage_options": [
+            256,
+            512,
+            1000
+        ],
+        "gpu_options": [
+            {
+                "name": "Intel Iris Xe",
+                "vram": 0
+            }
+        ],
+        "resolution_options": [
+            "1920x1080"
+        ]
+    },
+    {
+        "make": "Vaio",
+        "model": "SX14",
+        "year": 2021,
+        "form_factor": "Laptop",
+        "supported_os": [
+            "Windows 10",
+            "Windows 11"
+        ],
+        "cpu_options": [
+            {
+                "name": "Intel Core i5-1155G7",
+                "cores": 4
+            },
+            {
+                "name": "Intel Core i7-1195G7",
+                "cores": 4
+            }
+        ],
+        "ram_options": [
+            8192,
+            16384,
+            32768
+        ],
+        "storage_options": [
+            256,
+            512,
+            1000,
+            2000
+        ],
+        "gpu_options": [
+            {
+                "name": "Intel Iris Xe",
+                "vram": 0
+            }
+        ],
+        "resolution_options": [
+            "1920x1080",
+            "3840x2160"
+        ]
+    },
+    {
+        "make": "Dynabook",
+        "model": "Port\u00e9g\u00e9 X30L-K",
+        "year": 2022,
+        "form_factor": "Laptop",
+        "supported_os": [
+            "Windows 10",
+            "Windows 11"
+        ],
+        "cpu_options": [
+            {
+                "name": "Intel Core i5-1240P",
+                "cores": 12
+            },
+            {
+                "name": "Intel Core i7-1260P",
+                "cores": 12
+            }
+        ],
+        "ram_options": [
+            8192,
+            16384,
+            32768
+        ],
+        "storage_options": [
+            256,
+            512,
+            1000
+        ],
+        "gpu_options": [
+            {
+                "name": "Intel Iris Xe",
+                "vram": 0
+            }
+        ],
+        "resolution_options": [
+            "1366x768",
+            "1920x1080"
+        ]
+    },
+    {
+        "make": "Chuwi",
+        "model": "LarkBook X",
+        "year": 2021,
+        "form_factor": "Laptop",
+        "supported_os": [
+            "Windows 10"
+        ],
+        "cpu_options": [
+            {
+                "name": "Intel Celeron N5100",
+                "cores": 4
+            }
+        ],
+        "ram_options": [
+            8192
+        ],
+        "storage_options": [
+            256
+        ],
+        "gpu_options": [
+            {
+                "name": "Intel UHD Graphics",
+                "vram": 0
+            }
+        ],
+        "resolution_options": [
+            "2240x1400"
+        ]
+    },
+    {
+        "make": "Teclast",
+        "model": "F7 Plus 3",
+        "year": 2021,
+        "form_factor": "Laptop",
+        "supported_os": [
+            "Windows 10"
+        ],
+        "cpu_options": [
+            {
+                "name": "Intel Celeron N4120",
+                "cores": 4
+            }
+        ],
+        "ram_options": [
+            8192
+        ],
+        "storage_options": [
+            256
+        ],
+        "gpu_options": [
+            {
+                "name": "Intel UHD Graphics 600",
+                "vram": 0
+            }
+        ],
+        "resolution_options": [
+            "1920x1080"
+        ]
+    },
+    {
+        "make": "Infinix",
+        "model": "INBook X1",
+        "year": 2021,
+        "form_factor": "Laptop",
+        "supported_os": [
+            "Windows 10"
+        ],
+        "cpu_options": [
+            {
+                "name": "Intel Core i3-1005G1",
+                "cores": 2
+            },
+            {
+                "name": "Intel Core i5-1035G1",
+                "cores": 4
+            }
+        ],
+        "ram_options": [
+            8192,
+            16384
+        ],
+        "storage_options": [
+            256,
+            512
+        ],
+        "gpu_options": [
+            {
+                "name": "Intel UHD Graphics",
+                "vram": 0
+            }
+        ],
+        "resolution_options": [
+            "1920x1080"
+        ]
+    },
+    {
+        "make": "Tecno",
+        "model": "Megabook T1",
+        "year": 2022,
+        "form_factor": "Laptop",
+        "supported_os": [
+            "Windows 11"
+        ],
+        "cpu_options": [
+            {
+                "name": "Intel Core i5-1155G7",
+                "cores": 4
+            }
+        ],
+        "ram_options": [
+            12288,
+            16384
+        ],
+        "storage_options": [
+            512,
+            1000
+        ],
+        "gpu_options": [
+            {
+                "name": "Intel Iris Xe",
+                "vram": 0
+            }
+        ],
+        "resolution_options": [
+            "1920x1080"
+        ]
+    },
+    {
+        "make": "Clevo",
+        "model": "NH58AF1",
+        "year": 2020,
+        "form_factor": "Laptop",
+        "supported_os": [
+            "Windows 10"
+        ],
+        "cpu_options": [
+            {
+                "name": "AMD Ryzen 9 3900",
+                "cores": 12
+            }
+        ],
+        "ram_options": [
+            16384,
+            32768,
+            65536
+        ],
+        "storage_options": [
+            500,
+            1000,
+            2000
+        ],
+        "gpu_options": [
+            {
+                "name": "NVIDIA GeForce RTX 2070",
+                "vram": 8192
+            }
+        ],
+        "resolution_options": [
+            "1920x1080"
+        ]
+    },
+    {
+        "make": "Tongfang",
+        "model": "QC7 (Intel Reference)",
+        "year": 2019,
+        "form_factor": "Laptop",
+        "supported_os": [
+            "Windows 10"
+        ],
+        "cpu_options": [
+            {
+                "name": "Intel Core i7-9750H",
+                "cores": 6
+            }
+        ],
+        "ram_options": [
+            16384,
+            32768
+        ],
+        "storage_options": [
+            500,
+            1000
+        ],
+        "gpu_options": [
+            {
+                "name": "NVIDIA GeForce GTX 1660 Ti",
+                "vram": 6144
+            }
+        ],
+        "resolution_options": [
+            "1920x1080"
+        ]
+    },
+    {
+        "make": "Getac",
+        "model": "B360",
+        "year": 2020,
+        "form_factor": "Rugged",
+        "supported_os": [
+            "Windows 10"
+        ],
+        "cpu_options": [
+            {
+                "name": "Intel Core i5-10210U",
+                "cores": 4
+            },
+            {
+                "name": "Intel Core i7-10510U",
+                "cores": 4
+            }
+        ],
+        "ram_options": [
+            8192,
+            16384,
+            32768,
+            65536
+        ],
+        "storage_options": [
+            256,
+            512,
+            1000
+        ],
+        "gpu_options": [
+            {
+                "name": "Intel UHD Graphics",
+                "vram": 0
+            }
+        ],
+        "resolution_options": [
+            "1920x1080"
+        ]
+    },
+    {
+        "make": "Durabook",
+        "model": "S14I",
+        "year": 2021,
+        "form_factor": "Rugged",
+        "supported_os": [
+            "Windows 10",
+            "Windows 11"
+        ],
+        "cpu_options": [
+            {
+                "name": "Intel Core i5-1135G7",
+                "cores": 4
+            },
+            {
+                "name": "Intel Core i7-1165G7",
+                "cores": 4
+            }
+        ],
+        "ram_options": [
+            8192,
+            16384,
+            32768
+        ],
+        "storage_options": [
+            256,
+            512,
+            1000
+        ],
+        "gpu_options": [
+            {
+                "name": "Intel Iris Xe",
+                "vram": 0
+            }
+        ],
+        "resolution_options": [
+            "1920x1080"
+        ]
+    },
+    {
+        "make": "Panasonic",
+        "model": "Toughbook 55 Mk2",
+        "year": 2021,
+        "form_factor": "Rugged",
+        "supported_os": [
+            "Windows 10",
+            "Windows 11"
+        ],
+        "cpu_options": [
+            {
+                "name": "Intel Core i5-1145G7",
+                "cores": 4
+            },
+            {
+                "name": "Intel Core i7-1185G7",
+                "cores": 4
+            }
+        ],
+        "ram_options": [
+            8192,
+            16384,
+            32768,
+            65536
+        ],
+        "storage_options": [
+            512,
+            1000,
+            2000
+        ],
+        "gpu_options": [
+            {
+                "name": "Intel Iris Xe",
+                "vram": 0
+            }
+        ],
+        "resolution_options": [
+            "1366x768",
+            "1920x1080"
+        ]
+    },
+    {
+        "make": "Pine64",
+        "model": "Pinebook Pro",
+        "year": 2019,
+        "form_factor": "Laptop",
+        "supported_os": [
+            "Windows 10"
+        ],
+        "cpu_options": [
+            {
+                "name": "Rockchip RK3399",
+                "cores": 6
+            }
+        ],
+        "ram_options": [
+            4096
+        ],
+        "storage_options": [
+            64,
+            128
+        ],
+        "gpu_options": [
+            {
+                "name": "Mali-T860 MP4",
+                "vram": 0
+            }
+        ],
+        "resolution_options": [
+            "1920x1080"
+        ]
     }
 ]

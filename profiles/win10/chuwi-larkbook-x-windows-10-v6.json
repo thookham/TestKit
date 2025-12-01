@@ -1,0 +1,26 @@
+{
+  "id": "chuwi-larkbook-x-windows-10-v6",
+  "metadata": {
+    "make": "Chuwi",
+    "model": "LarkBook X",
+    "year": 2021,
+    "os_target": "Windows 10",
+    "form_factor": "Laptop"
+  },
+  "hardware": {
+    "cpu_cores": 4,
+    "cpu_name": "Intel Celeron N5100",
+    "ram_mb": 8192,
+    "storage_gb": 256,
+    "gpu_name": "Intel UHD Graphics",
+    "gpu_vram_mb": 0,
+    "screen_resolution": "2240x1400"
+  },
+  "environment": {
+    "accessibility_mode": "High Contrast",
+    "boot_mode": "Normal"
+  },
+  "software": {
+    "primary_browser": "Edge"
+  }
+}

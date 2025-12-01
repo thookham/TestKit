@@ -3,6 +3,38 @@ import os
 import argparse
 from pathlib import Path
 
+def generate_launch_script(output_dir, profile_id, commands, description):
+    """Generates cross-platform launch scripts (.ps1 and .sh)."""
+    
+    # PowerShell Script
+    ps1_content = f"""# Launch Script for {profile_id}
+# {description}
+Write-Host "Starting {profile_id} environment..." -ForegroundColor Cyan
+{commands['ps1']}
+"""
+    ps1_path = os.path.join(output_dir, "launch.ps1")
+    with open(ps1_path, 'w') as f:
+        f.write(ps1_content)
+        
+    # Bash Script
+    sh_content = f"""#!/bin/bash
+# Launch Script for {profile_id}
+# {description}
+echo "Starting {profile_id} environment..."
+{commands['sh']}
+"""
+    sh_path = os.path.join(output_dir, "launch.sh")
+    with open(sh_path, 'w') as f:
+        f.write(sh_content)
+    
+    # Make bash script executable
+    try:
+        os.chmod(sh_path, 0o755)
+    except:
+        pass
+        
+    print(f"Generated launch scripts: {ps1_path}, {sh_path}")
+
 def export_docker(profile, output_dir):
     """Generates a Dockerfile for the given profile."""
     profile_id = profile.get('id', 'unknown')
@@ -28,6 +60,13 @@ RUN echo "Initializing TestKit Environment for {profile_id}"
     with open(output_path, 'w') as f:
         f.write(dockerfile_content)
     print(f"Exported Dockerfile: {output_path}")
+    
+    # Generate Launch Scripts
+    commands = {
+        'ps1': f'docker build -t testkit-{profile_id} -f {profile_id}.Dockerfile .\ndocker run -it --rm testkit-{profile_id}',
+        'sh': f'docker build -t testkit-{profile_id} -f {profile_id}.Dockerfile .\ndocker run -it --rm testkit-{profile_id}'
+    }
+    generate_launch_script(output_dir, profile_id, commands, "Builds and runs the Docker container")
 
 def export_vagrant(profile, output_dir):
     """Generates a Vagrantfile for the given profile."""
@@ -57,6 +96,13 @@ end
     with open(output_path, 'w') as f:
         f.write(vagrantfile_content)
     print(f"Exported Vagrantfile: {output_path}")
+    
+    # Generate Launch Scripts
+    commands = {
+        'ps1': 'vagrant up\nvagrant ssh',
+        'sh': 'vagrant up\nvagrant ssh'
+    }
+    generate_launch_script(output_dir, profile_id, commands, "Provisions and connects to the Vagrant VM")
 
 def export_terraform(profile, output_dir):
     """Generates a Terraform configuration for the given profile."""
@@ -144,6 +190,13 @@ output "public_ip" {{
     with open(output_path, 'w') as f:
         f.write(terraform_content)
     print(f"Exported Terraform: {output_path}")
+    
+    # Generate Launch Scripts
+    commands = {
+        'ps1': 'terraform init\nterraform apply -auto-approve',
+        'sh': 'terraform init\nterraform apply -auto-approve'
+    }
+    generate_launch_script(output_dir, profile_id, commands, "Initializes and applies Terraform configuration")
 
 def export_wsb(profile, output_dir):
     """Generates a Windows Sandbox configuration (.wsb) for the given profile."""
@@ -167,6 +220,13 @@ def export_wsb(profile, output_dir):
     with open(output_path, 'w') as f:
         f.write(wsb_content)
     print(f"Exported Windows Sandbox: {output_path}")
+    
+    # Generate Launch Scripts
+    commands = {
+        'ps1': f'Start-Process "{profile_id}.wsb"',
+        'sh': f'cmd.exe /c start {profile_id}.wsb'
+    }
+    generate_launch_script(output_dir, profile_id, commands, "Launches Windows Sandbox")
 
 def main():
     parser = argparse.ArgumentParser(description="Export TestKit profiles to various formats.")

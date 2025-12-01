@@ -1,0 +1,26 @@
+{
+  "id": "vaio-sx14-windows-11-v495",
+  "metadata": {
+    "make": "Vaio",
+    "model": "SX14",
+    "year": 2021,
+    "os_target": "Windows 11",
+    "form_factor": "Laptop"
+  },
+  "hardware": {
+    "cpu_cores": 4,
+    "cpu_name": "Intel Core i7-1195G7",
+    "ram_mb": 16384,
+    "storage_gb": 512,
+    "gpu_name": "Intel Iris Xe",
+    "gpu_vram_mb": 0,
+    "screen_resolution": "1920x1080"
+  },
+  "environment": {
+    "accessibility_mode": "Standard",
+    "boot_mode": "Normal"
+  },
+  "software": {
+    "primary_browser": "Edge"
+  }
+}

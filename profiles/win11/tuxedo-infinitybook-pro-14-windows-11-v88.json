@@ -1,0 +1,26 @@
+{
+  "id": "tuxedo-infinitybook-pro-14-windows-11-v88",
+  "metadata": {
+    "make": "Tuxedo",
+    "model": "InfinityBook Pro 14",
+    "year": 2023,
+    "os_target": "Windows 11",
+    "form_factor": "Laptop"
+  },
+  "hardware": {
+    "cpu_cores": 14,
+    "cpu_name": "Intel Core i7-12700H",
+    "ram_mb": 32768,
+    "storage_gb": 2000,
+    "gpu_name": "Intel Iris Xe",
+    "gpu_vram_mb": 0,
+    "screen_resolution": "2880x1800"
+  },
+  "environment": {
+    "accessibility_mode": "High Contrast",
+    "boot_mode": "Normal"
+  },
+  "software": {
+    "primary_browser": "Chrome"
+  }
+}

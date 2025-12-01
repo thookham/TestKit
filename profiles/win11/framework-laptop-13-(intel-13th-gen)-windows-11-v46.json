@@ -1,0 +1,26 @@
+{
+  "id": "framework-laptop-13-(intel-13th-gen)-windows-11-v46",
+  "metadata": {
+    "make": "Framework",
+    "model": "Laptop 13 (Intel 13th Gen)",
+    "year": 2023,
+    "os_target": "Windows 11",
+    "form_factor": "Laptop"
+  },
+  "hardware": {
+    "cpu_cores": 12,
+    "cpu_name": "Intel Core i5-1340P",
+    "ram_mb": 16384,
+    "storage_gb": 1024,
+    "gpu_name": "Intel Iris Xe",
+    "gpu_vram_mb": 0,
+    "screen_resolution": "2256x1504"
+  },
+  "environment": {
+    "accessibility_mode": "High Contrast",
+    "boot_mode": "Normal"
+  },
+  "software": {
+    "primary_browser": "Chrome"
+  }
+}

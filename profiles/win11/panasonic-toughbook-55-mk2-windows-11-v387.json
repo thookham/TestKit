@@ -1,0 +1,26 @@
+{
+  "id": "panasonic-toughbook-55-mk2-windows-11-v387",
+  "metadata": {
+    "make": "Panasonic",
+    "model": "Toughbook 55 Mk2",
+    "year": 2021,
+    "os_target": "Windows 11",
+    "form_factor": "Rugged"
+  },
+  "hardware": {
+    "cpu_cores": 4,
+    "cpu_name": "Intel Core i5-1145G7",
+    "ram_mb": 32768,
+    "storage_gb": 2000,
+    "gpu_name": "Intel Iris Xe",
+    "gpu_vram_mb": 0,
+    "screen_resolution": "1366x768"
+  },
+  "environment": {
+    "accessibility_mode": "Standard",
+    "boot_mode": "Normal"
+  },
+  "software": {
+    "primary_browser": "Edge"
+  }
+}

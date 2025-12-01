@@ -1,0 +1,26 @@
+{
+  "id": "dynabook-port\u00e9g\u00e9-x30l-k-windows-11-v307",
+  "metadata": {
+    "make": "Dynabook",
+    "model": "Port\u00e9g\u00e9 X30L-K",
+    "year": 2022,
+    "os_target": "Windows 11",
+    "form_factor": "Laptop"
+  },
+  "hardware": {
+    "cpu_cores": 12,
+    "cpu_name": "Intel Core i5-1240P",
+    "ram_mb": 32768,
+    "storage_gb": 512,
+    "gpu_name": "Intel Iris Xe",
+    "gpu_vram_mb": 0,
+    "screen_resolution": "1920x1080"
+  },
+  "environment": {
+    "accessibility_mode": "Standard",
+    "boot_mode": "Normal"
+  },
+  "software": {
+    "primary_browser": "Chrome"
+  }
+}

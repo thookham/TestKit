@@ -6,17 +6,18 @@ Complete catalog of all 45 base hardware models in TestKit's database.
 
 ## 📊 **Quick Statistics**
 
-- **Total Base Models**: 45
-- **Manufacturers**: 20
-- **Form Factors**: 10
+- **Total Base Models**: 65
+- **Manufacturers**: 35+
+- **Form Factors**: 12
 - **OS Support Range**: Windows XP → Windows 11
-- **Generated Profiles**: 16,912
+- **Generated Profiles**: 20,446
 
 ---
 
 ## 🔍 **Search by Category**
 
 - [Standard Laptops](#standard-laptops) (8 models)
+- [Tier 2 / Boutique Laptops](#tier-2--boutique-laptops) (7 models) 🆕
 - [Gaming Laptops](#gaming-laptops) (7 models)
 - [Workstations](#workstations) (2 models)
 - [Handhelds](#gaming-handhelds) (5 models)
@@ -25,7 +26,8 @@ Complete catalog of all 45 base hardware models in TestKit's database.
 - [Servers](#servers) (2 models)
 - [Cloud VMs](#cloud-vms) (2 models)
 - [Mini PCs](#mini-pcs) (4 models)
-- [Legacy & Specialized](#legacy--specialized) (8 models)
+- [Rugged & Specialized](#rugged--specialized) (11 models) 🆕
+- [Regional / Budget](#regional--budget) (7 models) 🆕
 
 ---
 
@@ -88,6 +90,162 @@ Business and consumer laptops for general-purpose testing.
 - **GPU**: Intel HD 620
 - **OS**: Windows 10
 - **Profiles**: 48
+
+---
+
+## Tier 2 / Boutique Laptops
+
+High-quality laptops from specialized manufacturers.
+
+### Framework Laptop 13 (2023) 🆕
+- **CPU**: Intel Core i5-1340P (12 cores), i7-1360P (12 cores)
+- **RAM**: 8-64 GB
+- **GPU**: Intel Iris Xe
+- **OS**: Windows 11
+- **Profiles**: 40
+
+### System76 Gazelle (2023) 🆕
+- **CPU**: Intel Core i9-13900H (14 cores)
+- **RAM**: 8-64 GB
+- **GPU**: NVIDIA RTX 4050/4060
+- **OS**: Windows 10, Windows 11
+- **Profiles**: 40
+
+### Schenker XMG Neo 15 (2021) 🆕
+- **CPU**: AMD Ryzen 9 5900HX (8 cores)
+- **RAM**: 16-64 GB
+- **GPU**: NVIDIA RTX 3080
+- **OS**: Windows 10, Windows 11
+- **Profiles**: 18
+
+### Medion Erazer Beast X30 (2022) 🆕
+- **CPU**: Intel Core i9-12900HK (14 cores)
+- **RAM**: 32-64 GB
+- **GPU**: NVIDIA RTX 3080 Ti
+- **OS**: Windows 11
+- **Profiles**: 4
+
+### Tuxedo InfinityBook Pro 14 (2023) 🆕
+- **CPU**: Intel Core i7-12700H (14 cores)
+- **RAM**: 16-64 GB
+- **GPU**: Intel Iris Xe, NVIDIA RTX 3050 Ti
+- **OS**: Windows 11
+- **Profiles**: 24
+
+### Purism Librem 14 (2021) 🆕
+- **CPU**: Intel Core i7-10710U (6 cores)
+- **RAM**: 8-64 GB
+- **GPU**: Intel UHD
+- **OS**: Windows 10
+- **Profiles**: 16
+
+### Slimbook Executive 14 (2022) 🆕
+- **CPU**: Intel Core i7-12700H (14 cores)
+- **RAM**: 16-64 GB
+- **GPU**: Intel Iris Xe, NVIDIA RTX 3050 Ti
+- **OS**: Windows 11
+- **Profiles**: 18
+
+---
+
+## Regional / Budget
+
+Popular devices in specific markets.
+
+### Fujitsu Lifebook U9311 (2021) 🆕
+- **CPU**: Intel Core i5/i7 (11th Gen)
+- **RAM**: 8-32 GB
+- **GPU**: Intel Iris Xe
+- **OS**: Windows 10, Windows 11
+- **Profiles**: 36
+
+### Vaio SX14 (2021) 🆕
+- **CPU**: Intel Core i5/i7 (11th Gen)
+- **RAM**: 8-32 GB
+- **GPU**: Intel Iris Xe
+- **OS**: Windows 10, Windows 11
+- **Profiles**: 48
+
+### Dynabook Portégé X30L-K (2022) 🆕
+- **CPU**: Intel Core i5/i7 (12th Gen P-series)
+- **RAM**: 8-32 GB
+- **GPU**: Intel Iris Xe
+- **OS**: Windows 10, Windows 11
+- **Profiles**: 36
+
+### Chuwi LarkBook X (2021) 🆕
+- **CPU**: Intel Celeron N5100
+- **RAM**: 8 GB
+- **GPU**: Intel UHD
+- **OS**: Windows 10
+- **Profiles**: 1
+
+### Teclast F7 Plus 3 (2021) 🆕
+- **CPU**: Intel Celeron N4120
+- **RAM**: 8 GB
+- **GPU**: Intel UHD 600
+- **OS**: Windows 10
+- **Profiles**: 1
+
+### Infinix INBook X1 (2021) 🆕
+- **CPU**: Intel Core i3/i5 (10th Gen)
+- **RAM**: 8-16 GB
+- **GPU**: Intel UHD
+- **OS**: Windows 10
+- **Profiles**: 8
+
+### Tecno Megabook T1 (2022) 🆕
+- **CPU**: Intel Core i5-1155G7
+- **RAM**: 12-16 GB
+- **GPU**: Intel Iris Xe
+- **OS**: Windows 11
+- **Profiles**: 4
+
+---
+
+## Rugged & Specialized
+
+### Clevo NH58AF1 (2020) 🆕
+- **CPU**: AMD Ryzen 9 3900
+- **RAM**: 16-64 GB
+- **GPU**: NVIDIA RTX 2070
+- **OS**: Windows 10
+- **Profiles**: 9
+
+### Tongfang QC7 (2019) 🆕
+- **CPU**: Intel Core i7-9750H
+- **RAM**: 16-32 GB
+- **GPU**: NVIDIA GTX 1660 Ti
+- **OS**: Windows 10
+- **Profiles**: 4
+
+### Getac B360 (2020) 🆕
+- **CPU**: Intel Core i5/i7 (10th Gen)
+- **RAM**: 8-64 GB
+- **GPU**: Intel UHD
+- **OS**: Windows 10
+- **Profiles**: 24
+
+### Durabook S14I (2021) 🆕
+- **CPU**: Intel Core i5/i7 (11th Gen)
+- **RAM**: 8-32 GB
+- **GPU**: Intel Iris Xe
+- **OS**: Windows 10, Windows 11
+- **Profiles**: 36
+
+### Panasonic Toughbook 55 Mk2 (2021) 🆕
+- **CPU**: Intel Core i5/i7 (11th Gen)
+- **RAM**: 8-64 GB
+- **GPU**: Intel Iris Xe
+- **OS**: Windows 10, Windows 11
+- **Profiles**: 48
+
+### Pine64 Pinebook Pro (2019) 🆕
+- **CPU**: Rockchip RK3399 (ARM)
+- **RAM**: 4 GB
+- **GPU**: Mali-T860
+- **OS**: Windows 10 (WoA)
+- **Profiles**: 2
 
 ---
 

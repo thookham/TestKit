@@ -1,0 +1,26 @@
+{
+  "id": "infinix-inbook-x1-windows-10-v40",
+  "metadata": {
+    "make": "Infinix",
+    "model": "INBook X1",
+    "year": 2021,
+    "os_target": "Windows 10",
+    "form_factor": "Laptop"
+  },
+  "hardware": {
+    "cpu_cores": 4,
+    "cpu_name": "Intel Core i5-1035G1",
+    "ram_mb": 16384,
+    "storage_gb": 256,
+    "gpu_name": "Intel UHD Graphics",
+    "gpu_vram_mb": 0,
+    "screen_resolution": "1920x1080"
+  },
+  "environment": {
+    "accessibility_mode": "High Contrast",
+    "boot_mode": "Normal"
+  },
+  "software": {
+    "primary_browser": "Chrome"
+  }
+}

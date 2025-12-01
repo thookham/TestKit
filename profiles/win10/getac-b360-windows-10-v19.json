@@ -1,0 +1,26 @@
+{
+  "id": "getac-b360-windows-10-v19",
+  "metadata": {
+    "make": "Getac",
+    "model": "B360",
+    "year": 2020,
+    "os_target": "Windows 10",
+    "form_factor": "Rugged"
+  },
+  "hardware": {
+    "cpu_cores": 4,
+    "cpu_name": "Intel Core i5-10210U",
+    "ram_mb": 16384,
+    "storage_gb": 256,
+    "gpu_name": "Intel UHD Graphics",
+    "gpu_vram_mb": 0,
+    "screen_resolution": "1920x1080"
+  },
+  "environment": {
+    "accessibility_mode": "Standard",
+    "boot_mode": "Normal"
+  },
+  "software": {
+    "primary_browser": "Chrome"
+  }
+}
