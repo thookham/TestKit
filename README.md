@@ -143,6 +143,7 @@ TestKit/
 │   ├── workflows/         # CI/CD automation
 │   └── ISSUE_TEMPLATE/    # Issue templates
 ├── README.md
+├── ROADMAP.md
 ├── CONTRIBUTING.md
 ├── CHANGELOG.md
 └── LICENSE
@@ -418,6 +419,7 @@ A: Yes! TestKit is MIT licensed, allowing commercial use. See [LICENSE](LICENSE)
 - **Issues**: [GitHub Issues](https://github.com/thookham/TestKit/issues)
 - **Discussions**: [GitHub Discussions](https://github.com/thookham/TestKit/discussions)
 - **Contributing**: [Contributing Guide](CONTRIBUTING.md)
+- **Roadmap**: [Project Roadmap](ROADMAP.md)
 - **Code of Conduct**: [Code of Conduct](CODE_OF_CONDUCT.md)
 
 ---
