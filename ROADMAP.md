@@ -13,13 +13,16 @@ TestKit has reached a strong foundation with 80 hardware models and 22,122 profi
 ### Current State Assessment
 
 **Strengths**:
+
 - ✅ Comprehensive hardware coverage (Tier 1-3 manufacturers)
 - ✅ Multi-platform export (Docker, Vagrant, Terraform, Windows Sandbox)
 - ✅ Automated profile generation with strong validation
 - ✅ Professional documentation and community standards
 - ✅ CI/CD automation via GitHub Actions
+- ✅ **Docker CLI Support**: Containerized runtime for profile generation
 
 **Gaps & Opportunities**:
+
 - 🔶 Limited **actual virtualization** - profiles are currently metadata definitions
 - 🔶 No **automated testing** or **validation** of exported environments
 - 🔶 Export formats are basic templates without advanced orchestration
@@ -36,6 +39,7 @@ TestKit has reached a strong foundation with 80 hardware models and 22,122 profi
 **Target Date**: January 2025
 
 #### Hardware Database Expansion
+
 - [ ] **Tier 4A: Emerging Form Factors** (10 models)
   - Foldable laptops (Asus Zenbook 17 Fold, Lenovo ThinkPad X1 Fold)
   - Dual-screen devices (Asus Zenbook Duo, Lenovo Yoga Book 9i)
@@ -56,6 +60,7 @@ TestKit has reached a strong foundation with 80 hardware models and 22,122 profi
 **Expected Outcome**: **105 total hardware models**, **~28,000 profiles**
 
 #### Export Improvements
+
 - [ ] **Hyper-V Export Format** (.vhdx)
   - PowerShell scripts for Hyper-V VM creation
   - Integration with Windows Server environments
@@ -76,6 +81,7 @@ TestKit has reached a strong foundation with 80 hardware models and 22,122 profi
   - Auto-cleanup options for temporary resources
 
 #### Documentation
+
 - [ ] **EXPORT_GUIDE.md** - Deep-dive into each export format with best practices
 - [ ] **HARDWARE_TIERS.md** - Explanation of Tier 1-4 classification
 - [ ] **TROUBLESHOOTING.md** - Common issues and solutions
@@ -87,6 +93,7 @@ TestKit has reached a strong foundation with 80 hardware models and 22,122 profi
 **Target Date**: March 2025
 
 #### Profile Validation Suite
+
 - [ ] **Smoke Testing Framework**
   - Automated tests for each export format
   - Verify Dockerfile builds successfully
@@ -105,6 +112,7 @@ TestKit has reached a strong foundation with 80 hardware models and 22,122 profi
   - Validate OS compatibility (e.g., no Windows 11 on 2010 hardware)
 
 #### CI/CD Pipeline Examples
+
 - [ ] **GitHub Actions Templates**
   - `.github/workflows/testkit-docker.yml` - Matrix build across profiles
   - `.github/workflows/testkit-terraform.yml` - Cloud deployment example
@@ -120,6 +128,7 @@ TestKit has reached a strong foundation with 80 hardware models and 22,122 profi
   - Terraform apply/destroy lifecycle in merge requests
 
 #### Advanced Filtering
+
 - [ ] **Profile Search Tool**
   - CLI: `python scripts/search.py --os "Windows 10" --min-ram 8192 --gpu-vendor NVIDIA`
   - JSON export of matching profiles
@@ -142,6 +151,7 @@ TestKit has reached a strong foundation with 80 hardware models and 22,122 profi
 A browser-based interface for exploring, comparing, and exporting profiles.
 
 **Features**:
+
 - [ ] **Profile Browser**
   - Searchable/filterable table of all 22k+ profiles
   - Quick preview cards with hardware specs
@@ -274,6 +284,7 @@ Move beyond metadata definitions to **actual VM provisioning and testing**.
 ## 🔧 Technical Debt & Refactoring
 
 ### Immediate (v1.4.0)
+
 - [ ] **Migrate from JSON to SQLite** for hardware database
   - Improves query performance for large datasets
   - Enables complex joins and aggregations
@@ -290,6 +301,7 @@ Move beyond metadata definitions to **actual VM provisioning and testing**.
   - Target: >80% code coverage
 
 ### Future (v2.0.0+)
+
 - [ ] **Modular Exporter Architecture**
   - Plugin system for exporters (e.g., `exporters/docker.py`, `exporters/terraform.py`)
   - Easier to add new formats (Multipass, LXD, Proxmox)
@@ -307,6 +319,7 @@ Move beyond metadata definitions to **actual VM provisioning and testing**.
 ## 📊 Metrics & Success Criteria
 
 ### Current Metrics (v1.3.0)
+
 - **Hardware Models**: 80
 - **Generated Profiles**: 22,122
 - **Export Formats**: 4 (Docker, Vagrant, Terraform, WSB)
@@ -315,6 +328,7 @@ Move beyond metadata definitions to **actual VM provisioning and testing**.
 - **Weekly Downloads**: _TBD_
 
 ### Target Metrics (v2.0.0)
+
 - **Hardware Models**: 150+
 - **Generated Profiles**: 50,000+
 - **Export Formats**: 8+ (+ Hyper-V, VMware, Multipass, Proxmox)
@@ -366,12 +380,14 @@ Each feature is evaluated on:
 ## 🤝 Community Engagement
 
 ### Immediate Actions
+
 - [ ] **Create GitHub Discussions** board for feature requests
 - [ ] **Tag "Good First Issue"** for beginner-friendly tasks
 - [ ] **Monthly Status Updates** in Discord/Slack/Reddit
 - [ ] **Contributor Recognition** in CHANGELOG.md and README.md
 
 ### Long-Term
+
 - [ ] **Bug Bounty Program** for critical issues
 - [ ] **Annual TestKit Conference** (virtual) for power users
 - [ ] **Partner Program** with hardware manufacturers for data access
@@ -391,11 +407,13 @@ Each feature is evaluated on:
 ## 📞 Feedback & Contribution
 
 This roadmap is a **living document**. Priorities may shift based on:
+
 - **User feedback** (GitHub Issues, Discussions)
 - **Ecosystem changes** (new Windows releases, hardware trends)
 - **Resource availability** (maintainer time, sponsorships)
 
 **Have ideas?**
+
 - 💬 Open a [GitHub Discussion](https://github.com/thookham/TestKit/discussions)
 - 🐛 File a [Feature Request](https://github.com/thookham/TestKit/issues/new?template=feature_request.md)
 - 📧 Email: [your-email@example.com]

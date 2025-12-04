@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  testkit:
+    build: .
+    image: testkit:latest
+    volumes:
+      - ./exports:/app/exports
+      - ./profiles:/app/profiles:ro
+    working_dir: /app

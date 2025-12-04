@@ -37,6 +37,7 @@ Modern software must work across an enormous range of hardware configurations. T
 ---
 
 ## 📊 **Profile Coverage**
+
 | **Servers** | Dell, HP | PowerEdge R740, ProLiant DL380 | 850+ |\r
 | **Desktops** | System76, Dell, HP | Thelio, Dimension, Compaq | 1,100+ |\r
 | **Cloud VMs** | AWS, Azure | EC2 t2.micro, Standard_D2s_v3 | 120+ |\r
@@ -67,11 +68,24 @@ python scripts/generate_profiles.py
 
 **Output**: `16,912 profiles` generated in `profiles/` directory, organized by OS version.
 
-### 2. Export to Your Platform
+### 2. Run with Docker (Optional) 🐳
+
+**No Python installed? No problem!** Run TestKit commands directly via Docker.
+
+```bash
+# Build the image
+docker-compose build
+
+# Run commands (mounts ./exports automatically)
+docker-compose run --rm testkit --profile profiles/win11/acer-aspire-vero-windows-11-v1.json --format docker
+```
+
+### 3. Export to Your Platform
 
 ![Export Flow](docs/images/export_flow_diagram.png)
 
 #### Docker
+
 ```bash
 python scripts/export.py \
   --profile "profiles/win11/acer-aspire-vero-windows-11-v1.json" \
@@ -83,6 +97,7 @@ python scripts/export.py \
 ```
 
 #### Vagrant (VirtualBox)
+
 ```bash
 python scripts/export.py \
   --profile "profiles/win10/lenovo-thinkpad-t480-windows-10-v1.json" \
@@ -91,6 +106,7 @@ python scripts/export.py \
 ```
 
 #### Terraform (AWS)
+
 ```bash
 python scripts/export.py \
   --profile "profiles/win11/msi-gs66-stealth-windows-11-v1.json" \
@@ -104,6 +120,7 @@ terraform apply
 ```
 
 #### Windows Sandbox
+
 ```bash
 python scripts/export.py \
   --profile "profiles/win10/lenovo-thinkpad-t480-windows-10-v1.json" \
@@ -186,18 +203,21 @@ See [docs/API_REFERENCE.md](docs/API_REFERENCE.md) for complete schema specifica
 ## 🏆 **Why TestKit Stands Out**
 
 ### vs. BrowserStack / Device Farms
+
 - **Cost**: TestKit is free and open-source; no per-minute charges
 - **Privacy**: Run tests on-premise; no data leaves your infrastructure
 - **Customization**: Modify profiles for your specific needs
 - **Scale**: Generate unlimited environments simultaneously
 
 ### vs. Manual VM Creation
+
 - **Speed**: 1 command vs. hours of manual configuration
 - **Consistency**: Profiles are version-controlled and reproducible
 - **Coverage**: Test 16,912 configurations vs. maintaining a few VMs
 - **Automation**: CI/CD integration built-in
 
 ### vs. Windows Dev VMs
+
 - **Variety**: 45 hardware types vs. generic VM
 - **History**: Support for legacy Windows (XP, 7) alongside modern versions
 - **Export Flexibility**: Deploy to cloud, local VMs, or containers
@@ -210,15 +230,19 @@ See [docs/API_REFERENCE.md](docs/API_REFERENCE.md) for complete schema specifica
 TestKit is designed to integrate seamlessly with existing testing infrastructure:
 
 ### Device Farms  
+
 Export profiles to **Docker** and deploy to on-premise device labs or cloud platforms like AWS Device Farm.
 
 ### Virtualization  
+
 Use **Vagrant** or **Terraform** exporters to provision VMs with infrastructure-as-code tools like Ansible, Puppet, or Chef.
 
 ### Local Testing  
+
 Use **Windows Sandbox** (.wsb) files for lightweight, ephemeral testing environments on Windows 10 Pro/Enterprise.
 
 ### CI/CD Integration  
+
 Profiles can be integrated into GitHub Actions, Azure DevOps, or Jenkins pipelines for automated cross-hardware testing.
 
 ---
@@ -226,6 +250,7 @@ Profiles can be integrated into GitHub Actions, Azure DevOps, or Jenkins pipelin
 ## 📖 **Common Workflows**
 
 ### Testing Legacy Application on Windows 7
+
 ```bash
 # Find a Windows 7 profile
 ls profiles/win7/
@@ -242,6 +267,7 @@ vagrant up
 ```
 
 ### Reproducing ARM-based Surface Issue
+
 ```bash
 # Export Surface Pro X (Qualcomm ARM)
 python scripts/export.py \
@@ -254,6 +280,7 @@ python scripts/export.py \
 ```
 
 ### Cloud Testing on AWS
+
 ```bash
 # Export to Terraform
 python scripts/export.py \
@@ -268,6 +295,7 @@ terraform apply
 ```
 
 ### Testing New Acer Laptop Configuration
+
 ```bash
 # Use one of the new Tier 1 profiles
 python scripts/export.py \
@@ -295,17 +323,20 @@ docker run -it testkit-helios
 ## 💡 **Best Practices**
 
 ### Profile Selection
+
 1. **Match OS**: Choose profiles targeting your application's supported Windows versions
 2. **Consider Form Factor**: Laptop profiles for mobility testing, desktop for performance
 3. **Hardware Constraints**: Test on low-spec profiles to ensure minimum requirements work
 
 ### Export Strategy
+
 - **Development**: Use Windows Sandbox for quick, disposable testing
 - **CI/CD**: Use Docker for fast, parallel test execution
 - **QA/Staging**: Use Vagrant or Terraform for persistent, shareable environments
 - **Production Validation**: Use cloud exports (Terraform) for real-world infrastructure testing
 
 ### Profile Customization
+
 ```bash
 # Copy and modify a profile
 cp profiles/win10/base-profile.json my-custom-profile.json
@@ -340,6 +371,7 @@ python scripts/export.py --profile my-custom-profile.json --format vagrant
 ```
 
 3. Regenerate profiles:
+
 ```bash
 python scripts/generate_profiles.py
 ```
@@ -357,6 +389,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for detailed contribution guidelines.
 ## 📝 **Contributing**
 
 We welcome contributions! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines on:
+
 - Adding new hardware definitions
 - Improving exporters
 - Writing documentation

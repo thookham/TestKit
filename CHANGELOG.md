@@ -5,9 +5,16 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [Unreleased]
+
+### Added
+
+- **Docker Support**: Containerized the TestKit CLI (`Dockerfile`, `docker-compose.yml`), allowing users to generate profiles without installing Python locally.
+
 ## [1.3.0] - 2024-12-01
 
 ### Added
+
 - **Tier 3 / Specialized Hardware**: Added 15 new profiles for edge cases and industrial use:
   - **Industrial/Rugged**: Zebra L10, Honeywell RT10, Getac V110
   - **Point of Sale (POS)**: NCR RealPOS XR7, Oracle Micros Workstation 6, Toshiba TCx 800
@@ -18,11 +25,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - **Generated Profiles**: Total count reached **22,122** (+8%).
 
 ### Changed
+
 - Updated documentation with new categories and statistics.
 
 ## [1.2.0] - 2024-12-01
 
 ### Added
+
 - **Tier 2 / Regional Manufacturers**: Added 20 new hardware profiles from diverse global manufacturers:
   - **Europe/Boutique**: Framework, System76, Schenker (XMG), Medion, Tuxedo, Purism, Slimbook
   - **Asia/Regional**: Fujitsu, Vaio, Dynabook (Toshiba), Chuwi, Teclast, Infinix, Tecno
@@ -32,12 +41,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - **Generated Profiles**: Total count reached **20,446** (+21%).
 
 ### Changed
+
 - Updated `export.py` to include launch script generation logic.
 - Updated documentation to reflect new hardware and features.
 
 ## [1.1.0] - 2024-11-30
 
 ### Added
+
 - **Tier 1 Manufacturers**: Added 11 new hardware profiles from industry-leading manufacturers
   - **Acer** (3 models): Aspire Vero (2021), Swift 3 (2020), Predator Helios 300 (2021)
   - **MSI** (2 models): GS66 Stealth (2020), Creator Z16 (2021)
@@ -67,6 +78,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - Enhanced FAQ with 6 common questions
 
 ### Changed
+
 - Updated all documentation to reflect expanded hardware coverage
 - Reorganized README structure for better navigation
 - Enhanced Quick Start section with examples using new Tier 1 models
@@ -74,6 +86,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Updated repository structure documentation
 
 ### Technical Details
+
 - All new profiles validated against JSON schema
 - CI/CD pipeline successfully processes expanded 45-model database
 - Profile generation time scales linearly with hardware count
@@ -84,29 +97,30 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [1.0.0] - 2024-11-29
 
 ### Added
+
 - Initial public release of TestKit.
 - **Database**: 34 hardware definitions covering laptops, servers, handhelds, and cloud VMs.
 - **Generator**: Script to generate combinatorial profiles based on hardware specs and OS versions.
 - **Profiles**: 12,254 unique hardware profiles generated.
 - **Exporters**:
-    - Docker (`Dockerfile`)
-    - Vagrant (`Vagrantfile`)
-    - Terraform (`.tf`)
-    - Windows Sandbox (`.wsb`)
+  - Docker (`Dockerfile`)
+  - Vagrant (`Vagrantfile`)
+  - Terraform (`.tf`)
+  - Windows Sandbox (`.wsb`)
 - **Documentation**: Comprehensive README with usage guides and examples.
 - **CI/CD**: GitHub Actions for validation and auto-generation.
 - **Community Files**:
-    - MIT License
-    - Code of Conduct (Contributor Covenant 2.1)
-    - Security Policy
-    - Contributing Guidelines
+  - MIT License
+  - Code of Conduct (Contributor Covenant 2.1)
+  - Security Policy
+  - Contributing Guidelines
 - **Validation**: Database validation script with schema checking
 - **Hardware Coverage**:
-    - Standard Laptops (Lenovo, Dell, HP)
-    - Gaming Systems (Razer, Alienware)
-    - Handhelds (Steam Deck, ROG Ally, Legion Go, GPD)
-    - Tablets/2-in-1 (Microsoft Surface)
-    - Servers (Dell PowerEdge, HP ProLiant)
-    - Cloud VMs (AWS, Azure)
-    - Legacy Systems (Windows XP, Vista, 7)
-    - Global Manufacturers (Xiaomi, Huawei)
+  - Standard Laptops (Lenovo, Dell, HP)
+  - Gaming Systems (Razer, Alienware)
+  - Handhelds (Steam Deck, ROG Ally, Legion Go, GPD)
+  - Tablets/2-in-1 (Microsoft Surface)
+  - Servers (Dell PowerEdge, HP ProLiant)
+  - Cloud VMs (AWS, Azure)
+  - Legacy Systems (Windows XP, Vista, 7)
+  - Global Manufacturers (Xiaomi, Huawei)
