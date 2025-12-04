@@ -2,24 +2,26 @@ import json
 import os
 import itertools
 
+from typing import List, Dict, Any
+
 # Configuration
 DB_PATH = os.path.join(os.path.dirname(__file__), 'db', 'laptops.json')
 PROFILES_DIR = os.path.join(os.path.dirname(__file__), '..', 'profiles')
 
-def load_db():
+def load_db() -> List[Dict[str, Any]]:
     with open(DB_PATH, 'r') as f:
         return json.load(f)
 
-def ensure_dir(path):
+def ensure_dir(path: str) -> None:
     if not os.path.exists(path):
         os.makedirs(path)
 
-def generate_slug(make, model, os_name, variant_id):
+def generate_slug(make: str, model: str, os_name: str, variant_id: int) -> str:
     # Create a clean slug: lenovo-thinkpad-t480-win10-v1
     slug = f"{make}-{model}-{os_name}-v{variant_id}".lower()
     return slug.replace(" ", "-").replace(".", "")
 
-def get_os_dir(os_name):
+def get_os_dir(os_name: str) -> str:
     # Map OS name to directory
     mapping = {
         "Windows XP": "xp",

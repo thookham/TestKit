@@ -3,7 +3,9 @@ import os
 import argparse
 from pathlib import Path
 
-def generate_launch_script(output_dir, profile_id, commands, description):
+from typing import Dict, Any
+
+def generate_launch_script(output_dir: str, profile_id: str, commands: Dict[str, str], description: str) -> None:
     """Generates cross-platform launch scripts (.ps1 and .sh)."""
     
     # PowerShell Script
@@ -35,7 +37,7 @@ echo "Starting {profile_id} environment..."
         
     print(f"Generated launch scripts: {ps1_path}, {sh_path}")
 
-def export_docker(profile, output_dir):
+def export_docker(profile: Dict[str, Any], output_dir: str) -> None:
     """Generates a Dockerfile for the given profile."""
     profile_id = profile.get('id', 'unknown')
     dockerfile_content = f"""# TestKit Profile: {profile.get('make')} {profile.get('model')}
@@ -68,7 +70,7 @@ RUN echo "Initializing TestKit Environment for {profile_id}"
     }
     generate_launch_script(output_dir, profile_id, commands, "Builds and runs the Docker container")
 
-def export_vagrant(profile, output_dir):
+def export_vagrant(profile: Dict[str, Any], output_dir: str) -> None:
     """Generates a Vagrantfile for the given profile."""
     profile_id = profile.get('id', 'unknown')
     ram_mb = profile.get('hardware', {}).get('ram_mb', 2048)
@@ -104,7 +106,7 @@ end
     }
     generate_launch_script(output_dir, profile_id, commands, "Provisions and connects to the Vagrant VM")
 
-def export_terraform(profile, output_dir):
+def export_terraform(profile: Dict[str, Any], output_dir: str) -> None:
     """Generates a Terraform configuration for the given profile."""
     profile_id = profile.get('id', 'unknown')
     ram_mb = profile.get('hardware', {}).get('ram_mb', 2048)
@@ -198,7 +200,7 @@ output "public_ip" {{
     }
     generate_launch_script(output_dir, profile_id, commands, "Initializes and applies Terraform configuration")
 
-def export_wsb(profile, output_dir):
+def export_wsb(profile: Dict[str, Any], output_dir: str) -> None:
     """Generates a Windows Sandbox configuration (.wsb) for the given profile."""
     profile_id = profile.get('id', 'unknown')
     ram_mb = profile.get('hardware', {}).get('ram_mb', 2048)
