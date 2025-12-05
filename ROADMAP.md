@@ -80,11 +80,10 @@ TestKit has reached a strong foundation with 80 hardware models and 22,122 profi
   - Error handling with user-friendly messages
   - Auto-cleanup options for temporary resources
 
-#### Documentation
-
-- [ ] **EXPORT_GUIDE.md** - Deep-dive into each export format with best practices
-- [ ] **HARDWARE_TIERS.md** - Explanation of Tier 1-4 classification
-- [ ] **TROUBLESHOOTING.md** - Common issues and solutions
+- [x] **Documentation**
+  - [x] **EXPORT_GUIDE.md** - Deep-dive into each export format with best practices
+  - [ ] **HARDWARE_TIERS.md** - Explanation of Tier 1-4 classification
+  - [ ] **TROUBLESHOOTING.md** - Common issues and solutions
 
 ---
 

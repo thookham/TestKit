@@ -9,12 +9,27 @@
 
 **TestKit** is a comprehensive, industry-leading repository of hardware profiles specifically designed for testing and debugging Windows applications across diverse device configurations. With **22,122+ unique profiles** spanning Windows 95 through Windows 11, TestKit provides standardized hardware definitions that can be exported to Docker, Vagrant, Terraform, and Windows Sandbox.
 
-> [!NOTE]
-> **What's New in v1.3.0**: Added 15 Tier 3/Specialized manufacturer profiles (Industrial, Medical, POS, Legacy, SBC) and expanded total coverage to **80 base models**.
+> **What's New in v1.4.0**: Added **Batch Export**, **Hyper-V**, and **VMware** support. Now spanning **22,000+ profiles** with enterprise-grade virtualization tools.
 
 ---
 
-## 🎯 **Why TestKit?**
+## 📚 Documentation
+
+- [**Export Guide**](docs/EXPORT_GUIDE.md) - Learn how to use Docker, Hyper-V, VMware, and proper batch exporting.
+- [**Hardware Tiers**](docs/HARDWARE_TIERS.md) - Understanding the classification system.
+- [**Architecture**](docs/ARCHITECTURE.md) - How TestKit generates profiles.
+
+## ✨ Features
+
+- **Massive Database**: Over 80 hardware models and 22,000+ profiles.
+- **Multi-Format Export**:
+  - 🐳 **Docker** (Containerized simulation)
+  - ⚡ **Hyper-V** (Local virtualization)
+  - 🖥️ **VMware** (Workstation/Player configs)
+  - 📦 **Vagrant** (VirtualBox automation)
+  - ☁️ **Terraform** (AWS Cloud deployment)
+  - 🪟 **Windows Sandbox** (Ephemeral desktop testing)
+- **Batch Operations**: Filter and export thousands of profiles with `batch_export.py`.
 
 Modern software must work across an enormous range of hardware configurations. TestKit solves the "Standard Library of Hardware Definitions" problem by providing:
 

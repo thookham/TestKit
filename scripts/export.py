@@ -230,10 +230,106 @@ def export_wsb(profile: Dict[str, Any], output_dir: str) -> None:
     }
     generate_launch_script(output_dir, profile_id, commands, "Launches Windows Sandbox")
 
+def export_hyperv(profile: Dict[str, Any], output_dir: str) -> None:
+    """Generates a Hyper-V VM creation script (.ps1) for the given profile."""
+    profile_id = profile.get('id', 'unknown')
+    ram_mb = profile.get('hardware', {}).get('ram_mb', 2048)
+    cpu_cores = profile.get('hardware', {}).get('cpu_count', 2)
+    
+    # Determine generation based on OS year/type if possible, default to 2 for modern validation
+    generation = 2 
+    
+    hyperv_content = f"""# TestKit Hyper-V Creator for Profile: {profile_id}
+# Requires Administrator privileges and Hyper-V Module
+
+$VMName = "TestKit-{profile_id}"
+$SwitchName = "Default Switch" 
+$MemoryMB = {ram_mb}
+$ProcessorCount = {cpu_cores}
+$VHDPath = "$HOME\\Documents\\Hyper-V\\Virtual Hard Disks\\$VMName.vhdx"
+
+# Check if VM already exists
+if (Get-VM -Name $VMName -ErrorAction SilentlyContinue) {{
+    Write-Warning "VM '$VMName' already exists. Skipping creation."
+}} else {{
+    Write-Host "Creating VM '$VMName'..." -ForegroundColor Cyan
+    
+    # Create the VM
+    New-VM -Name $VMName -MemoryStartupBytes $MemoryMB"MB" -Generation {generation} -NewVHDPath $VHDPath -NewVHDSizeBytes 40GB -SwitchName $SwitchName
+    
+    # Set Processor Count
+    Set-VMProcessor -VMName $VMName -Count $ProcessorCount
+    
+    # Enable Trusted Platform Module (TPM) for Windows 11 compliance if Gen 2
+    if ({generation} -eq 2) {{
+        Enable-VMTPM -VMName $VMName
+        Set-VMFirmware -VMName $VMName -EnableSecureBoot On
+    }}
+    
+    Write-Host "VM '$VMName' created successfully." -ForegroundColor Green
+    Write-Host "To install an OS, mount an ISO: Set-VMDvdDrive -VMName '$VMName' -Path 'C:\\Path\\To\\Install.iso'" -ForegroundColor Yellow
+}}
+"""
+    output_path = os.path.join(output_dir, f"{profile_id}_setup.ps1")
+    with open(output_path, 'w') as f:
+        f.write(hyperv_content)
+    print(f"Exported Hyper-V Setup Script: {output_path}")
+
+    # Generate Launch Scripts (To run the setup logic)
+    commands = {
+        'ps1': f'powershell -ExecutionPolicy Bypass -File "{profile_id}_setup.ps1"',
+        'sh': f'echo "Hyper-V export requires PowerShell. Please run {profile_id}_setup.ps1 directly."'
+    }
+    generate_launch_script(output_dir, profile_id, commands, "Creates the Hyper-V Virtual Machine")
+
+
+def export_vmware(profile: Dict[str, Any], output_dir: str) -> None:
+    """Generates a VMware Workstation/Player configuration (.vmx) for the given profile."""
+    profile_id = profile.get('id', 'unknown')
+    ram_mb = profile.get('hardware', {}).get('ram_mb', 2048)
+    cpu_cores = profile.get('hardware', {}).get('cpu_count', 2)
+    
+    vmx_content = f"""# TestKit Profile: {profile_id}
+.encoding = "UTF-8"
+displayname = "TestKit-{profile_id}"
+guestos = "windows9-64"
+memsize = "{ram_mb}"
+numvcpus = "{cpu_cores}"
+virtualhw.version = "16"
+config.version = "8"
+powerType.powerOff = "soft"
+powerType.powerOn = "soft"
+powerType.suspend = "soft"
+powerType.reset = "soft"
+ethernet0.virtualDev = "e1000e"
+ethernet0.connectionType = "nat"
+ethernet0.startConnected = "TRUE"
+ethernet0.wakeOnPcktRcv = "FALSE"
+ethernet0.addressType = "generated"
+sound.present = "TRUE"
+sound.virtualDev = "hdaudio"
+sound.fileName = "-1"
+sound.autodetect = "TRUE"
+"""
+    output_path = os.path.join(output_dir, f"{profile_id}.vmx")
+    with open(output_path, 'w') as f:
+        f.write(vmx_content)
+    print(f"Exported VMware Config: {output_path}")
+
+    # Generate Launch Scripts
+    # Assumes 'vmrun' is in PATH or file association works
+    commands = {
+        'ps1': f'Start-Process "{profile_id}.vmx"',
+        'sh': f'vmrun start "{profile_id}.vmx"' 
+    }
+    generate_launch_script(output_dir, profile_id, commands, "Launches VMware Workstation/Player")
+
+
+
 def main():
     parser = argparse.ArgumentParser(description="Export TestKit profiles to various formats.")
     parser.add_argument("--profile", help="Path to a specific profile JSON file", required=True)
-    parser.add_argument("--format", choices=["docker", "vagrant", "terraform", "wsb"], required=True, help="Export format")
+    parser.add_argument("--format", choices=["docker", "vagrant", "terraform", "wsb", "hyperv", "vmware"], required=True, help="Export format")
     parser.add_argument("--output", default="exports", help="Output directory")
     
     args = parser.parse_args()
@@ -253,6 +349,10 @@ def main():
             export_terraform(profile_data, args.output)
         elif args.format == "wsb":
             export_wsb(profile_data, args.output)
+        elif args.format == "hyperv":
+            export_hyperv(profile_data, args.output)
+        elif args.format == "vmware":
+            export_vmware(profile_data, args.output)
             
     except Exception as e:
         print(f"Error exporting profile: {e}")
