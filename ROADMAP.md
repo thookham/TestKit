@@ -82,7 +82,7 @@ TestKit has reached a strong foundation with 80 hardware models and 22,122 profi
 
 - [x] **Documentation**
   - [x] **EXPORT_GUIDE.md** - Deep-dive into each export format with best practices
-  - [ ] **HARDWARE_TIERS.md** - Explanation of Tier 1-4 classification
+  - [x] **HARDWARE_TIERS.md** - Explanation of Tier 1-4 classification
   - [ ] **TROUBLESHOOTING.md** - Common issues and solutions
 
 ---
