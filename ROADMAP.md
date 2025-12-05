@@ -285,7 +285,7 @@ Move beyond metadata definitions to **actual VM provisioning and testing**.
 
 ### Immediate (v1.4.0)
 
-- [ ] **Migrate from JSON to SQLite** for hardware database
+- [x] **Migrate from JSON to SQLite** for hardware database
   - Improves query performance for large datasets
   - Enables complex joins and aggregations
   - Easier to manage relationships (e.g., GPU → Manufacturer)

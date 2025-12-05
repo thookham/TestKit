@@ -1,13 +1,14 @@
 import json
 import sqlite3
 import os
+from typing import List, Dict, Any
 
 # Define paths
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 JSON_PATH = os.path.join(BASE_DIR, 'db', 'laptops.json')
 DB_PATH = os.path.join(BASE_DIR, 'db', 'hardware.db')
 
-def migrate():
+def migrate() -> None:
     print(f"Migrating {JSON_PATH} to {DB_PATH}...")
     
     if not os.path.exists(JSON_PATH):
