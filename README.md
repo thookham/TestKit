@@ -18,6 +18,7 @@
 - [**Export Guide**](docs/EXPORT_GUIDE.md) - Learn how to use Docker, Hyper-V, VMware, and proper batch exporting.
 - [**Hardware Tiers**](docs/HARDWARE_TIERS.md) - Understanding the classification system.
 - [**Architecture**](docs/ARCHITECTURE.md) - How TestKit generates profiles.
+- [**Troubleshooting**](docs/TROUBLESHOOTING.md) - Common issues and solutions.
 
 ## ✨ Features
 
